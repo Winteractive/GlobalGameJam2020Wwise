@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="cloudBank" ID="{FF6EB229-25CE-4F4F-B331-95A1BF17617C}">
 					<ObjectInclusionList>
+						<ObjectRef Name="test_play2" ID="{3CED5996-0988-48A4-AC77-227089465194}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="test_play" ID="{52F921EF-DD5D-4DFA-A6E7-2A9D4C93C1A4}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

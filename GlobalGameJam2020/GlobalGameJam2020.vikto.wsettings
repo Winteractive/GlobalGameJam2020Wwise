@@ -4,6 +4,7 @@
 		<UserProjectSettings Name="" ID="{68DE5722-2463-407B-83C1-1326529DDA66}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\vikto\Desktop\till Blue\till Bump"/>
+				<Property Name="Event Action List\{3CED5996-0988-48A4-AC77-227089465194}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{52F921EF-DD5D-4DFA-A6E7-2A9D4C93C1A4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">

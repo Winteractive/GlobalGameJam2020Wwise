@@ -21,7 +21,8 @@
 			<ShortName>cloudBank</ShortName>
 			<Path>cloudBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="25579138" Name="test_play" ObjectPath="\Events\Default Work Unit\test_play"/>
+				<Event Id="25579138" Name="test_play" ObjectPath="\Events\Default Work Unit\test_play" DurationType="OneShot" DurationMin="1.018417" DurationMax="1.018417"/>
+				<Event Id="3899496084" Name="test_play2" ObjectPath="\Events\Default Work Unit\test_play2" DurationType="OneShot" DurationMin="1.018417" DurationMax="1.018417"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="120570241" Language="SFX">

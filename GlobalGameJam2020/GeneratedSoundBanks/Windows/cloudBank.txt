@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	25579138	test_play			\Default Work Unit\test_play	
+	3899496084	test_play2			\Default Work Unit\test_play2	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	120570241	ui selection	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\ui selection_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\test\ui selection		16932

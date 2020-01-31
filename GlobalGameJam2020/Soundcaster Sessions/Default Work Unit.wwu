@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FED01302-CC0B-4777-BFE5-170A3DC6A67F}" SchemaVersion="94">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{FED01302-CC0B-4777-BFE5-170A3DC6A67F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FED01302-CC0B-4777-BFE5-170A3DC6A67F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="testing" ID="{C2D3EADE-24FD-46C0-8614-B7E4ADA2699F}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="bgm_start" ID="{CB2C5442-EAC4-4026-A3BA-AEB61CBA6717}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="p1_start_charge" ID="{253CC8A2-AE31-4E6A-9825-A290D7FD0270}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="p2_start_charge" ID="{7F96C3E2-696D-47AE-9192-CE510F0F3425}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="p1_release_charge" ID="{D07315F8-7ADB-4923-8165-7DEABA425065}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="p2_release_charge" ID="{C731B096-81F5-4BF8-A71F-A21760A16310}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="p2charge" ID="{593F8334-0B59-4206-B9BA-6F0910591AC0}"/>
+							<Value>8.58930958536521E-312</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="p1charge" ID="{5FF0B5F6-7E98-4D75-8823-D637EF4080EA}"/>
+							<Value>8.58930960030575E-312</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="idle" ID="{6102E9B2-00DE-48D3-95F1-ACC40EB18572}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

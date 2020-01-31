@@ -21,13 +21,187 @@
 			<ShortName>cloudBank</ShortName>
 			<Path>cloudBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2985635692" Name="bgm_start" ObjectPath="\Events\Default Work Unit\Music\bgm_start" DurationType="Infinite"/>
+				<Event Id="1528975277" Name="p1_release_charge" ObjectPath="\Events\Default Work Unit\Music\p1_release_charge" DurationType="OneShot" DurationMin="1.238280" DurationMax="2.414360"/>
+				<Event Id="2816184176" Name="p1_start_charge" ObjectPath="\Events\Default Work Unit\Music\p1_start_charge" DurationType="OneShot" DurationMin="1.238280" DurationMax="1.810776"/>
+				<Event Id="2222857940" Name="p2_release_charge" ObjectPath="\Events\Default Work Unit\Music\p2_release_charge" DurationType="OneShot" DurationMin="1.238280" DurationMax="1.910025"/>
+				<Event Id="2550801177" Name="p2_start_charge" ObjectPath="\Events\Default Work Unit\Music\p2_start_charge" DurationType="OneShot" DurationMin="1.238260" DurationMax="1.609565"/>
+				<Event Id="452547817" Name="stop_all" ObjectPath="\Events\Default Work Unit\stop_all" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="25579138" Name="test_play" ObjectPath="\Events\Default Work Unit\test_play" DurationType="OneShot" DurationMin="1.018417" DurationMax="1.018417"/>
 				<Event Id="3899496084" Name="test_play2" ObjectPath="\Events\Default Work Unit\test_play2" DurationType="OneShot" DurationMin="1.018417" DurationMax="1.018417"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="5024986" Language="SFX">
+					<ShortName>9.wav</ShortName>
+					<Path>SFX\9_9B96ECC7.wem</Path>
+				</File>
+				<File Id="41484145" Language="SFX">
+					<ShortName>6.wav</ShortName>
+					<Path>SFX\6_9B96ECC7.wem</Path>
+				</File>
+				<File Id="51087315" Language="SFX">
+					<ShortName>6b.wav</ShortName>
+					<Path>SFX\6b_9B96ECC7.wem</Path>
+				</File>
+				<File Id="66347319" Language="SFX">
+					<ShortName>44b.wav</ShortName>
+					<Path>SFX\44b_9B96ECC7.wem</Path>
+				</File>
+				<File Id="68673418" Language="SFX">
+					<ShortName>c5.wav</ShortName>
+					<Path>SFX\c5_6296B0F9.wem</Path>
+				</File>
+				<File Id="85028701" Language="SFX">
+					<ShortName>c4c.wav</ShortName>
+					<Path>SFX\c4c_6296B0F9.wem</Path>
+				</File>
 				<File Id="120570241" Language="SFX">
 					<ShortName>ui selection.wav</ShortName>
 					<Path>SFX\ui selection_6296B0F9.wem</Path>
+				</File>
+				<File Id="130659084" Language="SFX">
+					<ShortName>5.wav</ShortName>
+					<Path>SFX\5_9B96ECC7.wem</Path>
+				</File>
+				<File Id="139381258" Language="SFX">
+					<ShortName>loop2.wav</ShortName>
+					<Path>SFX\loop2_9B96ECC7.wem</Path>
+				</File>
+				<File Id="174443776" Language="SFX">
+					<ShortName>7.wav</ShortName>
+					<Path>SFX\7_9B96ECC7.wem</Path>
+				</File>
+				<File Id="179314806" Language="SFX">
+					<ShortName>1.wav</ShortName>
+					<Path>SFX\1_9B96ECC7.wem</Path>
+				</File>
+				<File Id="234487626" Language="SFX">
+					<ShortName>loop7.wav</ShortName>
+					<Path>SFX\loop7_9B96ECC7.wem</Path>
+				</File>
+				<File Id="240932275" Language="SFX">
+					<ShortName>c7.wav</ShortName>
+					<Path>SFX\c7_6296B0F9.wem</Path>
+				</File>
+				<File Id="364772520" Language="SFX">
+					<ShortName>5b.wav</ShortName>
+					<Path>SFX\5b_9B96ECC7.wem</Path>
+				</File>
+				<File Id="417024678" Language="SFX">
+					<ShortName>crash1.wav</ShortName>
+					<Path>SFX\crash1_6296B0F9.wem</Path>
+				</File>
+				<File Id="418852700" Language="SFX">
+					<ShortName>8b.wav</ShortName>
+					<Path>SFX\8b_9B96ECC7.wem</Path>
+				</File>
+				<File Id="427159263" Language="SFX">
+					<ShortName>11b.wav</ShortName>
+					<Path>SFX\11b_9B96ECC7.wem</Path>
+				</File>
+				<File Id="433210910" Language="SFX">
+					<ShortName>loop1a.wav</ShortName>
+					<Path>SFX\loop1a_9B96ECC7.wem</Path>
+				</File>
+				<File Id="452733415" Language="SFX">
+					<ShortName>3b.wav</ShortName>
+					<Path>SFX\3b_9B96ECC7.wem</Path>
+				</File>
+				<File Id="457837728" Language="SFX">
+					<ShortName>loop44.wav</ShortName>
+					<Path>SFX\loop44_9B96ECC7.wem</Path>
+				</File>
+				<File Id="459747813" Language="SFX">
+					<ShortName>10b.wav</ShortName>
+					<Path>SFX\10b_9B96ECC7.wem</Path>
+				</File>
+				<File Id="477901337" Language="SFX">
+					<ShortName>7b.wav</ShortName>
+					<Path>SFX\7b_9B96ECC7.wem</Path>
+				</File>
+				<File Id="507341333" Language="SFX">
+					<ShortName>44.wav</ShortName>
+					<Path>SFX\44_9B96ECC7.wem</Path>
+				</File>
+				<File Id="589970934" Language="SFX">
+					<ShortName>10.wav</ShortName>
+					<Path>SFX\10_9B96ECC7.wem</Path>
+				</File>
+				<File Id="618949344" Language="SFX">
+					<ShortName>3.wav</ShortName>
+					<Path>SFX\3_9B96ECC7.wem</Path>
+				</File>
+				<File Id="663337594" Language="SFX">
+					<ShortName>1b.wav</ShortName>
+					<Path>SFX\1b_9B96ECC7.wem</Path>
+				</File>
+				<File Id="720717461" Language="SFX">
+					<ShortName>loop8.wav</ShortName>
+					<Path>SFX\loop8_9B96ECC7.wem</Path>
+				</File>
+				<File Id="727573916" Language="SFX">
+					<ShortName>c9.wav</ShortName>
+					<Path>SFX\c9_6296B0F9.wem</Path>
+				</File>
+				<File Id="730453745" Language="SFX">
+					<ShortName>loop9.wav</ShortName>
+					<Path>SFX\loop9_9B96ECC7.wem</Path>
+				</File>
+				<File Id="730956311" Language="SFX">
+					<ShortName>cymbal1.wav</ShortName>
+					<Path>SFX\cymbal1_6296B0F9.wem</Path>
+				</File>
+				<File Id="775480652" Language="SFX">
+					<ShortName>9b.wav</ShortName>
+					<Path>SFX\9b_9B96ECC7.wem</Path>
+				</File>
+				<File Id="785788819" Language="SFX">
+					<ShortName>c8.wav</ShortName>
+					<Path>SFX\c8_6296B0F9.wem</Path>
+				</File>
+				<File Id="848303205" Language="SFX">
+					<ShortName>loop5.wav</ShortName>
+					<Path>SFX\loop5_9B96ECC7.wem</Path>
+				</File>
+				<File Id="852809816" Language="SFX">
+					<ShortName>c6.wav</ShortName>
+					<Path>SFX\c6_6296B0F9.wem</Path>
+				</File>
+				<File Id="854706617" Language="SFX">
+					<ShortName>loop11.wav</ShortName>
+					<Path>SFX\loop11_9B96ECC7.wem</Path>
+				</File>
+				<File Id="855096429" Language="SFX">
+					<ShortName>c3.wav</ShortName>
+					<Path>SFX\c3_6296B0F9.wem</Path>
+				</File>
+				<File Id="887210354" Language="SFX">
+					<ShortName>loop10.wav</ShortName>
+					<Path>SFX\loop10_9B96ECC7.wem</Path>
+				</File>
+				<File Id="951483357" Language="SFX">
+					<ShortName>11.wav</ShortName>
+					<Path>SFX\11_9B96ECC7.wem</Path>
+				</File>
+				<File Id="969443238" Language="SFX">
+					<ShortName>8.wav</ShortName>
+					<Path>SFX\8_9B96ECC7.wem</Path>
+				</File>
+				<File Id="991070477" Language="SFX">
+					<ShortName>loop6.wav</ShortName>
+					<Path>SFX\loop6_9B96ECC7.wem</Path>
+				</File>
+				<File Id="1026497866" Language="SFX">
+					<ShortName>2b.wav</ShortName>
+					<Path>SFX\2b_9B96ECC7.wem</Path>
+				</File>
+				<File Id="1061436537" Language="SFX">
+					<ShortName>loop3.wav</ShortName>
+					<Path>SFX\loop3_9B96ECC7.wem</Path>
+				</File>
+				<File Id="1064556952" Language="SFX">
+					<ShortName>2.wav</ShortName>
+					<Path>SFX\2_9B96ECC7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

@@ -1,3 +1,15 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1069431850	player			\Default Work Unit\player	
+	3991942870	music			\Default Work Unit\music	
+
+State	ID	Name	State Group			Notes
+	0	None	player			
+	1635194252	p1	player			
+	1635194255	p2	player			
+	0	None	music			
+	1874288895	idle	music			
+	3828622232	charging	music			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

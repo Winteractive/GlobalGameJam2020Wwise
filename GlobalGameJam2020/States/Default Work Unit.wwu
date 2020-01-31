@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{43F1869A-C872-4AC6-9DB4-7FC0AAB7C7D8}" SchemaVersion="94">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{43F1869A-C872-4AC6-9DB4-7FC0AAB7C7D8}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{43F1869A-C872-4AC6-9DB4-7FC0AAB7C7D8}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="music" ID="{696AB0FF-675E-40B7-989A-F0680E6A3E5F}">
+					<ChildrenList>
+						<State Name="None" ID="{20EF8413-525F-40A6-9B1A-BBFDFE3A9798}"/>
+						<State Name="idle" ID="{6102E9B2-00DE-48D3-95F1-ACC40EB18572}"/>
+						<State Name="charging" ID="{4659DC9A-7D18-4D4E-B4E8-5B3D09FA2EC6}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="player" ID="{B2A2DCBA-797A-4C04-9FC9-DE2A5F284B48}">
+					<ChildrenList>
+						<State Name="None" ID="{9482216A-AAAA-4803-BCC7-DEF85ED764F8}"/>
+						<State Name="p1" ID="{1F059495-BBDA-4A8A-839C-583C42C0C6FB}"/>
+						<State Name="p2" ID="{7B47478C-0854-4E2F-B05C-A049F1C5F66E}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

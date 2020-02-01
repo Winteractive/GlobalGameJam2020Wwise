@@ -22,15 +22,15 @@
 			<Path>cloudBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2985635692" Name="bgm_start" ObjectPath="\Events\Default Work Unit\Music\bgm_start" DurationType="Infinite"/>
-				<Event Id="2420368622" Name="blue_release_charge" ObjectPath="\Events\Default Work Unit\Music\blue_release_charge" DurationType="OneShot" DurationMin="1.854104" DurationMax="2.117664"/>
+				<Event Id="2420368622" Name="blue_release_charge" ObjectPath="\Events\Default Work Unit\Music\blue_release_charge" DurationType="OneShot" DurationMin="2.207104" DurationMax="2.470664"/>
 				<Event Id="4065460003" Name="blue_start_charge" ObjectPath="\Events\Default Work Unit\Music\blue_start_charge" DurationType="OneShot" DurationMin="1.411769" DurationMax="1.588254"/>
 				<Event Id="1639892490" Name="bofa_0" ObjectPath="\Events\Default Work Unit\test\bofa_0" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1639892491" Name="bofa_1" ObjectPath="\Events\Default Work Unit\test\bofa_1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1282430586" Name="pink_release_charge" ObjectPath="\Events\Default Work Unit\Music\pink_release_charge" DurationType="OneShot" DurationMin="1.764769" DurationMax="2.028306"/>
 				<Event Id="1084135343" Name="pink_start_charge" ObjectPath="\Events\Default Work Unit\Music\pink_start_charge" DurationType="OneShot" DurationMin="1.411746" DurationMax="1.411769"/>
-				<Event Id="4236329311" Name="player_grounded" ObjectPath="\Events\Default Work Unit\sfx\player_grounded" DurationType="OneShot" DurationMin="1.058821" DurationMax="1.411769"/>
-				<Event Id="1751218143" Name="player_mounted" ObjectPath="\Events\Default Work Unit\sfx\player_mounted" DurationType="OneShot" DurationMin="1.058821" DurationMax="1.411769"/>
-				<Event Id="2590882482" Name="player_sleep" ObjectPath="\Events\Default Work Unit\sfx\player_sleep" DurationType="OneShot" DurationMin="1.058821" DurationMax="1.411769"/>
+				<Event Id="4236329311" Name="player_grounded" ObjectPath="\Events\Default Work Unit\sfx\player_grounded" DurationType="OneShot" DurationMin="1.411746" DurationMax="1.411769"/>
+				<Event Id="1751218143" Name="player_mounted" ObjectPath="\Events\Default Work Unit\sfx\player_mounted" DurationType="OneShot" DurationMin="1.411746" DurationMax="1.411769"/>
+				<Event Id="2590882482" Name="player_sleep" ObjectPath="\Events\Default Work Unit\sfx\player_sleep" DurationType="OneShot" DurationMin="1.917058" DurationMax="2.720542"/>
 				<Event Id="1321591602" Name="players_collide" ObjectPath="\Events\Default Work Unit\sfx\players_collide" DurationType="OneShot" DurationMin="1.411769" DurationMax="2.117664"/>
 				<Event Id="2093275268" Name="set_blue_volume_to_0" ObjectPath="\Events\Default Work Unit\test\set_blue_volume_to_0" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2093275269" Name="set_blue_volume_to_1" ObjectPath="\Events\Default Work Unit\test\set_blue_volume_to_1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -52,6 +52,10 @@
 				<File Id="27414172" Language="SFX">
 					<ShortName>chordShort2.wav</ShortName>
 					<Path>SFX\chordShort2_9B96ECC7.wem</Path>
+				</File>
+				<File Id="34950193" Language="SFX">
+					<ShortName>bluePreroll3.wav</ShortName>
+					<Path>SFX\bluePreroll3_6296B0F9.wem</Path>
 				</File>
 				<File Id="41484145" Language="SFX">
 					<ShortName>6.wav</ShortName>
@@ -125,10 +129,6 @@
 					<ShortName>chordShort5.wav</ShortName>
 					<Path>SFX\chordShort5_9B96ECC7.wem</Path>
 				</File>
-				<File Id="332050598" Language="SFX">
-					<ShortName>tom5.wav</ShortName>
-					<Path>SFX\tom5_6296B0F9.wem</Path>
-				</File>
 				<File Id="333563318" Language="SFX">
 					<ShortName>chordShort1.wav</ShortName>
 					<Path>SFX\chordShort1_9B96ECC7.wem</Path>
@@ -169,6 +169,10 @@
 					<ShortName>chordLong1.wav</ShortName>
 					<Path>SFX\chordLong1_9B96ECC7.wem</Path>
 				</File>
+				<File Id="448319848" Language="SFX">
+					<ShortName>bluePreroll1.wav</ShortName>
+					<Path>SFX\bluePreroll1_6296B0F9.wem</Path>
+				</File>
 				<File Id="452733415" Language="SFX">
 					<ShortName>3b.wav</ShortName>
 					<Path>SFX\3b_9B96ECC7.wem</Path>
@@ -201,13 +205,13 @@
 					<ShortName>1b.wav</ShortName>
 					<Path>SFX\1b_9B96ECC7.wem</Path>
 				</File>
-				<File Id="668846206" Language="SFX">
-					<ShortName>tom6.wav</ShortName>
-					<Path>SFX\tom6_6296B0F9.wem</Path>
-				</File>
 				<File Id="700184144" Language="SFX">
 					<ShortName>tom4.wav</ShortName>
 					<Path>SFX\tom4_6296B0F9.wem</Path>
+				</File>
+				<File Id="703028657" Language="SFX">
+					<ShortName>bluePreroll2.wav</ShortName>
+					<Path>SFX\bluePreroll2_6296B0F9.wem</Path>
 				</File>
 				<File Id="720717461" Language="SFX">
 					<ShortName>loop8.wav</ShortName>
@@ -244,6 +248,10 @@
 				<File Id="848303205" Language="SFX">
 					<ShortName>loop5.wav</ShortName>
 					<Path>SFX\loop5_9B96ECC7.wem</Path>
+				</File>
+				<File Id="850524666" Language="SFX">
+					<ShortName>sleep.wav</ShortName>
+					<Path>SFX\sleep_6296B0F9.wem</Path>
 				</File>
 				<File Id="852809816" Language="SFX">
 					<ShortName>c6.wav</ShortName>

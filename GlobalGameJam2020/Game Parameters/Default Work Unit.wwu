@@ -37,6 +37,14 @@
 						<Property Name="SlewRateUp" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="sleep_filter" ID="{8C06304C-3F9A-476B-8C42-9D2494D5B9C1}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="67"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="62"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

@@ -22,12 +22,20 @@
 			<Path>cloudBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2985635692" Name="bgm_start" ObjectPath="\Events\Default Work Unit\Music\bgm_start" DurationType="Infinite"/>
-				<Event Id="1528975277" Name="p1_release_charge" ObjectPath="\Events\Default Work Unit\Music\p1_release_charge" DurationType="OneShot" DurationMin="1.238280" DurationMax="2.414360"/>
-				<Event Id="2816184176" Name="p1_start_charge" ObjectPath="\Events\Default Work Unit\Music\p1_start_charge" DurationType="OneShot" DurationMin="1.238280" DurationMax="1.810776"/>
-				<Event Id="2222857940" Name="p2_release_charge" ObjectPath="\Events\Default Work Unit\Music\p2_release_charge" DurationType="OneShot" DurationMin="1.238280" DurationMax="1.910025"/>
-				<Event Id="2550801177" Name="p2_start_charge" ObjectPath="\Events\Default Work Unit\Music\p2_start_charge" DurationType="OneShot" DurationMin="1.238260" DurationMax="1.609565"/>
+				<Event Id="2420368622" Name="blue_release_charge" ObjectPath="\Events\Default Work Unit\Music\blue_release_charge" DurationType="OneShot" DurationMin="1.385003" DurationMax="2.876153"/>
+				<Event Id="4065460003" Name="blue_start_charge" ObjectPath="\Events\Default Work Unit\Music\blue_start_charge" DurationType="OneShot" DurationMin="1.238280" DurationMax="1.810776"/>
+				<Event Id="1639892490" Name="bofa_0" ObjectPath="\Events\Default Work Unit\test\bofa_0" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1639892491" Name="bofa_1" ObjectPath="\Events\Default Work Unit\test\bofa_1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1282430586" Name="pink_release_charge" ObjectPath="\Events\Default Work Unit\Music\pink_release_charge" DurationType="OneShot" DurationMin="1.054581" DurationMax="2.275355"/>
+				<Event Id="1084135343" Name="pink_start_charge" ObjectPath="\Events\Default Work Unit\Music\pink_start_charge" DurationType="OneShot" DurationMin="1.238260" DurationMax="1.609565"/>
 				<Event Id="4236329311" Name="player_grounded" ObjectPath="\Events\Default Work Unit\sfx\player_grounded" DurationType="OneShot" DurationMin="1.058821" DurationMax="1.411769"/>
+				<Event Id="1751218143" Name="player_mounted" ObjectPath="\Events\Default Work Unit\sfx\player_mounted" DurationType="OneShot" DurationMin="1.058821" DurationMax="1.411769"/>
+				<Event Id="2590882482" Name="player_sleep" ObjectPath="\Events\Default Work Unit\sfx\player_sleep" DurationType="OneShot" DurationMin="1.058821" DurationMax="1.411769"/>
 				<Event Id="1321591602" Name="players_collide" ObjectPath="\Events\Default Work Unit\sfx\players_collide" DurationType="OneShot" DurationMin="1.411769" DurationMax="2.117664"/>
+				<Event Id="2093275268" Name="set_blue_volume_to_0" ObjectPath="\Events\Default Work Unit\test\set_blue_volume_to_0" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2093275269" Name="set_blue_volume_to_1" ObjectPath="\Events\Default Work Unit\test\set_blue_volume_to_1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1279113544" Name="set_pink_volume_to_0" ObjectPath="\Events\Default Work Unit\test\set_pink_volume_to_0" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1279113545" Name="set_pink_volume_to_1" ObjectPath="\Events\Default Work Unit\test\set_pink_volume_to_1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="452547817" Name="stop_all" ObjectPath="\Events\Default Work Unit\stop_all" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="25579138" Name="test_play" ObjectPath="\Events\Default Work Unit\test_play" DurationType="OneShot" DurationMin="1.018417" DurationMax="1.018417"/>
 				<Event Id="3899496084" Name="test_play2" ObjectPath="\Events\Default Work Unit\test_play2" DurationType="OneShot" DurationMin="1.018417" DurationMax="1.018417"/>
@@ -36,6 +44,10 @@
 				<File Id="5024986" Language="SFX">
 					<ShortName>9.wav</ShortName>
 					<Path>SFX\9_9B96ECC7.wem</Path>
+				</File>
+				<File Id="27414172" Language="SFX">
+					<ShortName>chordShort2.wav</ShortName>
+					<Path>SFX\chordShort2_9B96ECC7.wem</Path>
 				</File>
 				<File Id="41484145" Language="SFX">
 					<ShortName>6.wav</ShortName>
@@ -77,6 +89,14 @@
 					<ShortName>1.wav</ShortName>
 					<Path>SFX\1_9B96ECC7.wem</Path>
 				</File>
+				<File Id="197630391" Language="SFX">
+					<ShortName>chordLong2.wav</ShortName>
+					<Path>SFX\chordLong2_9B96ECC7.wem</Path>
+				</File>
+				<File Id="212763412" Language="SFX">
+					<ShortName>P3.wav</ShortName>
+					<Path>SFX\P3_9B96ECC7.wem</Path>
+				</File>
 				<File Id="234487626" Language="SFX">
 					<ShortName>loop7.wav</ShortName>
 					<Path>SFX\loop7_9B96ECC7.wem</Path>
@@ -85,13 +105,37 @@
 					<ShortName>c7.wav</ShortName>
 					<Path>SFX\c7_6296B0F9.wem</Path>
 				</File>
+				<File Id="251889063" Language="SFX">
+					<ShortName>P4.wav</ShortName>
+					<Path>SFX\P4_9B96ECC7.wem</Path>
+				</File>
+				<File Id="302033951" Language="SFX">
+					<ShortName>chordLong4.wav</ShortName>
+					<Path>SFX\chordLong4_9B96ECC7.wem</Path>
+				</File>
+				<File Id="303848456" Language="SFX">
+					<ShortName>chordShort5.wav</ShortName>
+					<Path>SFX\chordShort5_9B96ECC7.wem</Path>
+				</File>
 				<File Id="332050598" Language="SFX">
 					<ShortName>tom5.wav</ShortName>
 					<Path>SFX\tom5_6296B0F9.wem</Path>
 				</File>
+				<File Id="333563318" Language="SFX">
+					<ShortName>chordShort1.wav</ShortName>
+					<Path>SFX\chordShort1_9B96ECC7.wem</Path>
+				</File>
+				<File Id="335918416" Language="SFX">
+					<ShortName>chordShort4.wav</ShortName>
+					<Path>SFX\chordShort4_9B96ECC7.wem</Path>
+				</File>
 				<File Id="339584839" Language="SFX">
 					<ShortName>tom1.wav</ShortName>
 					<Path>SFX\tom1_6296B0F9.wem</Path>
+				</File>
+				<File Id="358717096" Language="SFX">
+					<ShortName>P5.wav</ShortName>
+					<Path>SFX\P5_9B96ECC7.wem</Path>
 				</File>
 				<File Id="364772520" Language="SFX">
 					<ShortName>5b.wav</ShortName>
@@ -112,6 +156,10 @@
 				<File Id="433210910" Language="SFX">
 					<ShortName>loop1a.wav</ShortName>
 					<Path>SFX\loop1a_9B96ECC7.wem</Path>
+				</File>
+				<File Id="444448015" Language="SFX">
+					<ShortName>chordLong1.wav</ShortName>
+					<Path>SFX\chordLong1_9B96ECC7.wem</Path>
 				</File>
 				<File Id="452733415" Language="SFX">
 					<ShortName>3b.wav</ShortName>
@@ -177,6 +225,10 @@
 					<ShortName>c8.wav</ShortName>
 					<Path>SFX\c8_6296B0F9.wem</Path>
 				</File>
+				<File Id="844607025" Language="SFX">
+					<ShortName>chordShort3.wav</ShortName>
+					<Path>SFX\chordShort3_9B96ECC7.wem</Path>
+				</File>
 				<File Id="848303205" Language="SFX">
 					<ShortName>loop5.wav</ShortName>
 					<Path>SFX\loop5_9B96ECC7.wem</Path>
@@ -189,13 +241,13 @@
 					<ShortName>loop11.wav</ShortName>
 					<Path>SFX\loop11_9B96ECC7.wem</Path>
 				</File>
-				<File Id="855096429" Language="SFX">
-					<ShortName>c3.wav</ShortName>
-					<Path>SFX\c3_6296B0F9.wem</Path>
-				</File>
 				<File Id="887210354" Language="SFX">
 					<ShortName>loop10.wav</ShortName>
 					<Path>SFX\loop10_9B96ECC7.wem</Path>
+				</File>
+				<File Id="898327835" Language="SFX">
+					<ShortName>P2.wav</ShortName>
+					<Path>SFX\P2_9B96ECC7.wem</Path>
 				</File>
 				<File Id="929132258" Language="SFX">
 					<ShortName>tom2.wav</ShortName>
@@ -217,9 +269,21 @@
 					<ShortName>tom3.wav</ShortName>
 					<Path>SFX\tom3_6296B0F9.wem</Path>
 				</File>
+				<File Id="998256436" Language="SFX">
+					<ShortName>P1.wav</ShortName>
+					<Path>SFX\P1_9B96ECC7.wem</Path>
+				</File>
 				<File Id="1026497866" Language="SFX">
 					<ShortName>2b.wav</ShortName>
 					<Path>SFX\2b_9B96ECC7.wem</Path>
+				</File>
+				<File Id="1033620460" Language="SFX">
+					<ShortName>chordlong5.wav</ShortName>
+					<Path>SFX\chordlong5_9B96ECC7.wem</Path>
+				</File>
+				<File Id="1056635278" Language="SFX">
+					<ShortName>chordLong3.wav</ShortName>
+					<Path>SFX\chordLong3_9B96ECC7.wem</Path>
 				</File>
 				<File Id="1061436537" Language="SFX">
 					<ShortName>loop3.wav</ShortName>

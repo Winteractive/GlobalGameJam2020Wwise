@@ -46,9 +46,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{4B4E322F-57CC-45D7-93CC-BE02C49EF97A}" ShortID="127121240">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="playerMusic" ID="{3408E111-89D1-46D6-9498-95738C0E4C56}" WorkUnitID="{7F9CD1DB-5D4E-4BAB-8065-66B459DD433E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="p1_start_charge" ID="{253CC8A2-AE31-4E6A-9825-A290D7FD0270}">
+						<Event Name="blue_start_charge" ID="{253CC8A2-AE31-4E6A-9825-A290D7FD0270}">
 							<ChildrenList>
 								<Action Name="" ID="{E0581B25-9B0E-40C0-B77C-BF51584A327F}" ShortID="268245939">
 									<PropertyList>
@@ -57,7 +64,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="p1charge" ID="{5FF0B5F6-7E98-4D75-8823-D637EF4080EA}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
+											<ObjectRef Name="blue_charge" ID="{5FF0B5F6-7E98-4D75-8823-D637EF4080EA}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -70,7 +77,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="p1_release_charge" ID="{D07315F8-7ADB-4923-8165-7DEABA425065}">
+						<Event Name="blue_release_charge" ID="{D07315F8-7ADB-4923-8165-7DEABA425065}">
 							<ChildrenList>
 								<Action Name="" ID="{6DD72272-3D27-468F-B680-4859F535E323}" ShortID="941708142">
 									<PropertyList>
@@ -78,7 +85,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="p1charge" ID="{5FF0B5F6-7E98-4D75-8823-D637EF4080EA}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
+											<ObjectRef Name="blue_charge" ID="{5FF0B5F6-7E98-4D75-8823-D637EF4080EA}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -91,7 +98,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="p2_release_charge" ID="{C731B096-81F5-4BF8-A71F-A21760A16310}">
+						<Event Name="pink_release_charge" ID="{C731B096-81F5-4BF8-A71F-A21760A16310}">
 							<ChildrenList>
 								<Action Name="" ID="{EE46BA04-C5EF-4476-850C-69CAE431106E}" ShortID="313118014">
 									<PropertyList>
@@ -99,7 +106,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="p2charge" ID="{593F8334-0B59-4206-B9BA-6F0910591AC0}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
+											<ObjectRef Name="pink_charge" ID="{593F8334-0B59-4206-B9BA-6F0910591AC0}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -112,7 +119,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="p2_start_charge" ID="{7F96C3E2-696D-47AE-9192-CE510F0F3425}">
+						<Event Name="pink_start_charge" ID="{7F96C3E2-696D-47AE-9192-CE510F0F3425}">
 							<ChildrenList>
 								<Action Name="" ID="{22963FA2-56C7-4D96-8624-22D8DB8D4C31}" ShortID="134968570">
 									<PropertyList>
@@ -121,7 +128,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="p2charge" ID="{593F8334-0B59-4206-B9BA-6F0910591AC0}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
+											<ObjectRef Name="pink_charge" ID="{593F8334-0B59-4206-B9BA-6F0910591AC0}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -166,6 +173,140 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="players collide" ID="{512A9545-BBB9-4CBF-AB6B-521B245D86B2}" WorkUnitID="{3CE6858D-F3A8-4DEC-972E-D5F72D1F4527}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_sleep" ID="{90BF3021-B395-470B-9C13-0BE7701DB382}">
+							<ChildrenList>
+								<Action Name="" ID="{484A18B9-92A0-4202-82C4-ACFCF84202EF}" ShortID="705851914">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="hit ground" ID="{F77126B6-28A6-47F7-8281-CD4013559BAD}" WorkUnitID="{3CE6858D-F3A8-4DEC-972E-D5F72D1F4527}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_mounted" ID="{31346FEF-9CBB-4945-AFBD-24E8717BC4C0}">
+							<ChildrenList>
+								<Action Name="" ID="{72FEE92A-A25E-4DCF-B4D5-2F89E4AAAB14}" ShortID="496704066">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="hit ground" ID="{F77126B6-28A6-47F7-8281-CD4013559BAD}" WorkUnitID="{3CE6858D-F3A8-4DEC-972E-D5F72D1F4527}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="test" ID="{890E7D0A-5B17-46A0-80F7-C1A7958468DE}" ShortID="513944806">
+					<ChildrenList>
+						<Event Name="set_blue_volume_to_1" ID="{EBAAC50A-982D-4CE5-8A08-E9962A7DBB03}">
+							<ChildrenList>
+								<Action Name="" ID="{5CB799F6-624E-403B-A70F-C64CADCB179C}" ShortID="849447120">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="blue_volume" ID="{078D51EB-CD4A-43CE-A37E-259EB4A57C9C}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="set_blue_volume_to_0" ID="{F34FDD1B-AE56-44CC-B716-CD3AD147A5B7}">
+							<ChildrenList>
+								<Action Name="" ID="{D66C63C8-EA6B-40F7-8047-358B38862115}" ShortID="416735536">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="blue_volume" ID="{078D51EB-CD4A-43CE-A37E-259EB4A57C9C}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="set_pink_volume_to_1" ID="{BE19D45F-22E2-4216-849E-6269EF0EC929}">
+							<ChildrenList>
+								<Action Name="" ID="{9A5FC73F-80DB-4E4F-8121-65801EC12F8C}" ShortID="772491032">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pink_volume" ID="{B4C6B4F6-B16D-402E-B03F-4F29DF8BAE88}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="set_pink_volume_to_0" ID="{FF1811C4-6005-4433-8AE5-BF9818CA2A08}">
+							<ChildrenList>
+								<Action Name="" ID="{20F425CB-EEA7-4260-A042-CA0605ED5745}" ShortID="122102074">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pink_volume" ID="{B4C6B4F6-B16D-402E-B03F-4F29DF8BAE88}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="bofa_1" ID="{2E626DBB-AEC8-4668-B06F-907AA767F051}">
+							<ChildrenList>
+								<Action Name="" ID="{FA21C1D5-D90A-4BF7-A9C3-87399682E91E}" ShortID="859204">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="blue_volume" ID="{078D51EB-CD4A-43CE-A37E-259EB4A57C9C}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2E7CB95C-C3B0-4CC2-AFED-39BE74BC2AC6}" ShortID="294917756">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pink_volume" ID="{B4C6B4F6-B16D-402E-B03F-4F29DF8BAE88}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="bofa_0" ID="{B6CECE9C-B2F4-47D0-98AA-59FA2B5C768F}">
+							<ChildrenList>
+								<Action Name="" ID="{7C64D4A0-706C-4255-BFF7-079965D73541}" ShortID="729451778">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="blue_volume" ID="{078D51EB-CD4A-43CE-A37E-259EB4A57C9C}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{94D781AB-04FA-41EF-B4FC-1A66E8E73173}" ShortID="582569036">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pink_volume" ID="{B4C6B4F6-B16D-402E-B03F-4F29DF8BAE88}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

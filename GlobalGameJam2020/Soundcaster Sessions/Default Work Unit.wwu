@@ -18,37 +18,69 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="p1_start_charge" ID="{253CC8A2-AE31-4E6A-9825-A290D7FD0270}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+							<ObjectRef Name="blue_start_charge" ID="{253CC8A2-AE31-4E6A-9825-A290D7FD0270}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="p2_start_charge" ID="{7F96C3E2-696D-47AE-9192-CE510F0F3425}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+							<ObjectRef Name="pink_start_charge" ID="{7F96C3E2-696D-47AE-9192-CE510F0F3425}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="p1_release_charge" ID="{D07315F8-7ADB-4923-8165-7DEABA425065}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+							<ObjectRef Name="playerMusic" ID="{3408E111-89D1-46D6-9498-95738C0E4C56}" WorkUnitID="{7F9CD1DB-5D4E-4BAB-8065-66B459DD433E}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="blue_release_charge" ID="{D07315F8-7ADB-4923-8165-7DEABA425065}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="p2_release_charge" ID="{C731B096-81F5-4BF8-A71F-A21760A16310}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+							<ObjectRef Name="pink_release_charge" ID="{C731B096-81F5-4BF8-A71F-A21760A16310}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
 							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="playerMusic" ID="{3408E111-89D1-46D6-9498-95738C0E4C56}" WorkUnitID="{7F9CD1DB-5D4E-4BAB-8065-66B459DD433E}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="set_pink_volume_to_0" ID="{FF1811C4-6005-4433-8AE5-BF9818CA2A08}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="set_pink_volume_to_1" ID="{BE19D45F-22E2-4216-849E-6269EF0EC929}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="set_blue_volume_to_0" ID="{F34FDD1B-AE56-44CC-B716-CD3AD147A5B7}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="set_blue_volume_to_1" ID="{EBAAC50A-982D-4CE5-8A08-E9962A7DBB03}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="bofa_1" ID="{2E626DBB-AEC8-4668-B06F-907AA767F051}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="bofa_0" ID="{B6CECE9C-B2F4-47D0-98AA-59FA2B5C768F}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+							<Position X="4" Y="4"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="p2volume" ID="{B4C6B4F6-B16D-402E-B03F-4F29DF8BAE88}"/>
-							<Value>0</Value>
+							<GameParameterRef Name="pink_volume" ID="{B4C6B4F6-B16D-402E-B03F-4F29DF8BAE88}"/>
+							<Value>1</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="p2charge" ID="{593F8334-0B59-4206-B9BA-6F0910591AC0}"/>
+							<GameParameterRef Name="pink_charge" ID="{593F8334-0B59-4206-B9BA-6F0910591AC0}"/>
 							<Value>8.58930958536521E-312</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="p1volume" ID="{078D51EB-CD4A-43CE-A37E-259EB4A57C9C}"/>
-							<Value>0</Value>
+							<GameParameterRef Name="blue_volume" ID="{078D51EB-CD4A-43CE-A37E-259EB4A57C9C}"/>
+							<Value>1</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="p1charge" ID="{5FF0B5F6-7E98-4D75-8823-D637EF4080EA}"/>
+							<GameParameterRef Name="blue_charge" ID="{5FF0B5F6-7E98-4D75-8823-D637EF4080EA}"/>
 							<Value>8.58930960030575E-312</Value>
 						</RTPCValue>
 					</RTPCValueList>

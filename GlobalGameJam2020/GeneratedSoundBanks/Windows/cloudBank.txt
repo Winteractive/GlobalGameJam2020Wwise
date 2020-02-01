@@ -1,13 +1,21 @@
 Event	ID	Name			Wwise Object Path	Notes
 	25579138	test_play			\Default Work Unit\test_play	
 	452547817	stop_all			\Default Work Unit\stop_all	
+	1084135343	pink_start_charge			\Default Work Unit\Music\pink_start_charge	
+	1279113544	set_pink_volume_to_0			\Default Work Unit\test\set_pink_volume_to_0	
+	1279113545	set_pink_volume_to_1			\Default Work Unit\test\set_pink_volume_to_1	
+	1282430586	pink_release_charge			\Default Work Unit\Music\pink_release_charge	
 	1321591602	players_collide			\Default Work Unit\sfx\players_collide	
-	1528975277	p1_release_charge			\Default Work Unit\Music\p1_release_charge	
-	2222857940	p2_release_charge			\Default Work Unit\Music\p2_release_charge	
-	2550801177	p2_start_charge			\Default Work Unit\Music\p2_start_charge	
-	2816184176	p1_start_charge			\Default Work Unit\Music\p1_start_charge	
+	1639892490	bofa_0			\Default Work Unit\test\bofa_0	
+	1639892491	bofa_1			\Default Work Unit\test\bofa_1	
+	1751218143	player_mounted			\Default Work Unit\sfx\player_mounted	
+	2093275268	set_blue_volume_to_0			\Default Work Unit\test\set_blue_volume_to_0	
+	2093275269	set_blue_volume_to_1			\Default Work Unit\test\set_blue_volume_to_1	
+	2420368622	blue_release_charge			\Default Work Unit\Music\blue_release_charge	
+	2590882482	player_sleep			\Default Work Unit\sfx\player_sleep	
 	2985635692	bgm_start			\Default Work Unit\Music\bgm_start	
 	3899496084	test_play2			\Default Work Unit\test_play2	
+	4065460003	blue_start_charge			\Default Work Unit\Music\blue_start_charge	
 	4236329311	player_grounded			\Default Work Unit\sfx\player_grounded	
 
 State Group	ID	Name			Wwise Object Path	Notes
@@ -23,11 +31,14 @@ State	ID	Name	State Group			Notes
 	3828622232	charging	music			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	21060899	p2charge			\Default Work Unit\p2charge	
-	2747213232	p1charge			\Default Work Unit\p1charge	
+	585247752	blue_charge			\Default Work Unit\blue_charge	
+	706721998	pink_volume			\Default Work Unit\pink_volume	
+	1587205068	pink_charge			\Default Work Unit\pink_charge	
+	3254037386	blue_volume			\Default Work Unit\blue_volume	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	5024986	9	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\9_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop9\9		43699
+	27414172	chordShort2	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\chordShort2_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordShort2\chordShort2		66313
 	41484145	6	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\6_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop6\6		42047
 	51087315	6b	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\6b_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop6\6b		44292
 	66347319	44b	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\44b_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop44\44b		45977
@@ -38,15 +49,24 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	139381258	loop2	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\loop2_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop2\loop2		41170
 	174443776	7	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\7_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop7\7		43689
 	179314806	1	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\1_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop1a\1		43798
+	197630391	chordLong2	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\chordLong2_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordLong2\chordLong2		114596
+	212763412	P3	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\P3_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordLong3\P3		381981
 	234487626	loop7	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\loop7_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop7\loop7		40489
 	240932275	c7	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\c7_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\charge things\chargestartwho\p2\c7		19851
+	251889063	P4	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\P4_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordLong4\P4		393193
+	302033951	chordLong4	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\chordLong4_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordLong4\chordLong4		117272
+	303848456	chordShort5	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\chordShort5_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordShort5\chordShort5		67472
 	332050598	tom5	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\tom5_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit ground\tom5		15873
+	333563318	chordShort1	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\chordShort1_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordShort1\chordShort1		66085
+	335918416	chordShort4	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\chordShort4_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordShort4\chordShort4		68134
 	339584839	tom1	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\tom1_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit ground\tom1		19486
+	358717096	P5	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\P5_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordlong5\P5		387201
 	364772520	5b	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\5b_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop5\5b		44718
 	417024678	crash1	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\crash1_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\charge things\chargestartwho\p1\crash1		21039
 	418852700	8b	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\8b_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop8\8b		44922
 	427159263	11b	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\11b_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop11\11b		44263
 	433210910	loop1a	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\loop1a_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop1a\loop1a		40706
+	444448015	BluechordLong1	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\chordLong1_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordLong1\BluechordLong1		112013
 	452733415	3b	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\3b_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop3\3b		44976
 	457837728	loop44	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\loop44_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop44\loop44		40555
 	459747813	10b	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\10b_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop10\10b		44721
@@ -63,17 +83,21 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	730956311	cymbal1	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\cymbal1_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\charge things\chargeendWho\p1\cymbal1		29614
 	775480652	9b	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\9b_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop9\9b		46100
 	785788819	c8	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\c8_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\charge things\chargestartwho\p1\c8		19062
+	844607025	chordShort3	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\chordShort3_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordShort3\chordShort3		63741
 	848303205	loop5	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\loop5_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop5\loop5		40749
 	852809816	c6	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\c6_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\charge things\chargeendWho\p2\c6		20558
 	854706617	loop11	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\loop11_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop11\loop11		41137
-	855096429	c3	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\c3_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\charge things\chargeendWho\p1\c3		21525
 	887210354	loop10	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\loop10_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop10\loop10		41686
+	898327835	P2	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\P2_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordLong2\P2		391155
 	929132258	tom2	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\tom2_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit ground\tom2		20104
 	951483357	11	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\11_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop11\11		41567
 	969443238	8	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\8_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop8\8		42991
 	991070477	loop6	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\loop6_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop6\loop6		41647
 	994624300	tom3	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\tom3_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit ground\tom3		20101
+	998256436	P1	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\P1_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordLong1\P1		391352
 	1026497866	2b	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\2b_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop2\2b		44387
+	1033620460	chordlong5	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\chordlong5_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordlong5\chordlong5		116408
+	1056635278	chordLong3	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\chordLong3_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordLong3\chordLong3		108638
 	1061436537	loop3	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\loop3_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop3\loop3		40470
 	1064556952	2	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\2_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop2\2		43028
 

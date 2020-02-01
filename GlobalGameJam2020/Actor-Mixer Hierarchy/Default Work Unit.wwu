@@ -60,6 +60,21 @@
 					</ReferenceList>
 					<ChildrenList>
 						<SwitchContainer Name="chargeendWho" ID="{A67EB83D-E700-4ED0-B52E-9A52CA8D3CBB}" ShortID="188220784">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4BF42BAA-D686-4B88-86C4-805B3D28E47D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="278"/>
+													<Property Name="Min" Type="Real64" Value="-303"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
@@ -104,26 +119,14 @@
 												<ActiveSource Name="cymbal1" ID="{0C5A8CBD-0541-4E64-9671-6A196B8CE31F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="c3" ID="{10A095B0-857F-4B94-A8A1-9F1829CB5F01}" ShortID="340120909">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{33EF8610-7196-4EA0-96B1-81EF542103E2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="c3" ID="{C0748FE1-6557-4DD5-9C5F-741849359327}" ShortID="855096429">
-													<Language>SFX</Language>
-													<AudioFile>c3.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="c3" ID="{C0748FE1-6557-4DD5-9C5F-741849359327}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="c4c" ID="{B3C0ADD9-9B60-4111-BF1D-337A2DA822D7}" ShortID="262159233">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>

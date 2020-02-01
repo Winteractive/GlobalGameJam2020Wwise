@@ -41,7 +41,6 @@
 								<ModifierInfo>
 									<Modifier Name="" ID="{8147AAAF-D6E7-44C0-A602-6A039B15B881}">
 										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
 											<Property Name="Max" Type="Real64" Value="227"/>
 											<Property Name="Min" Type="Real64" Value="-227"/>
 										</PropertyList>
@@ -66,7 +65,6 @@
 										<ModifierInfo>
 											<Modifier Name="" ID="{4BF42BAA-D686-4B88-86C4-805B3D28E47D}">
 												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="278"/>
 													<Property Name="Min" Type="Real64" Value="-303"/>
 												</PropertyList>
@@ -147,7 +145,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="p2" ID="{BBBB6F37-F1E1-4FF3-97F5-23BB7DFB1ED5}" ShortID="132841179">
+								<BlendContainer Name="pinkEnd" ID="{D6381C73-670D-48AF-A320-5684C531D075}" ShortID="960249331">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
@@ -157,7 +155,14 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="c5" ID="{7E845837-A86F-4170-9171-C6A233E40BD1}" ShortID="1045735520">
+										<RandomSequenceContainer Name="pinkEnd" ID="{BBBB6F37-F1E1-4FF3-97F5-23BB7DFB1ED5}" ShortID="132841179">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>0.353</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
@@ -167,16 +172,47 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="c5" ID="{86DC2010-863B-4065-8D58-D6684DD9EFE0}" ShortID="68673418">
-													<Language>SFX</Language>
-													<AudioFile>c5.wav</AudioFile>
-												</AudioFileSource>
+												<Sound Name="c5" ID="{7E845837-A86F-4170-9171-C6A233E40BD1}" ShortID="1045735520">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{33EF8610-7196-4EA0-96B1-81EF542103E2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c5" ID="{86DC2010-863B-4065-8D58-D6684DD9EFE0}" ShortID="68673418">
+															<Language>SFX</Language>
+															<AudioFile>c5.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c5" ID="{86DC2010-863B-4065-8D58-D6684DD9EFE0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c6" ID="{E2CED444-8782-4EAB-B258-97BD94B327C1}" ShortID="951939005">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{33EF8610-7196-4EA0-96B1-81EF542103E2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c6" ID="{E89C8A8C-E4B0-4BF6-9511-0D447AB8B2F5}" ShortID="852809816">
+															<Language>SFX</Language>
+															<AudioFile>c6.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c6" ID="{E89C8A8C-E4B0-4BF6-9511-0D447AB8B2F5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="c5" ID="{86DC2010-863B-4065-8D58-D6684DD9EFE0}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="c6" ID="{E2CED444-8782-4EAB-B258-97BD94B327C1}" ShortID="951939005">
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="preroll" ID="{6E9DD060-25A8-4DFA-8B3A-A2EA4697A286}" ShortID="500190861">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
@@ -186,34 +222,78 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="c6" ID="{E89C8A8C-E4B0-4BF6-9511-0D447AB8B2F5}" ShortID="852809816">
-													<Language>SFX</Language>
-													<AudioFile>c6.wav</AudioFile>
-												</AudioFileSource>
+												<Sound Name="pinkPreroll1" ID="{2F3E196F-41E8-4C27-B74B-7B4452737E1D}" ShortID="1067051777">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{33EF8610-7196-4EA0-96B1-81EF542103E2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="pinkPreroll1" ID="{C40F0967-ABB3-4D35-BC4E-9592F998B22D}" ShortID="144187991">
+															<Language>SFX</Language>
+															<AudioFile>pinkPreroll1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="pinkPreroll1" ID="{C40F0967-ABB3-4D35-BC4E-9592F998B22D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="pinkPreroll2" ID="{23F92ECC-8DCF-4F11-A2A2-04D8D346690F}" ShortID="742057943">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{33EF8610-7196-4EA0-96B1-81EF542103E2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="pinkPreroll2" ID="{DF333456-49A9-4FB3-92E5-6D30E731E2ED}" ShortID="721845397">
+															<Language>SFX</Language>
+															<AudioFile>pinkPreroll2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="pinkPreroll2" ID="{DF333456-49A9-4FB3-92E5-6D30E731E2ED}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="pinkPreroll3" ID="{B1E232CE-D616-4916-B407-7EB5FA1E4B72}" ShortID="553087295">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{33EF8610-7196-4EA0-96B1-81EF542103E2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="pinkPreroll3" ID="{724D34F7-9742-4BE0-9828-27137ECEA5F7}" ShortID="8140043">
+															<Language>SFX</Language>
+															<AudioFile>pinkPreroll3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="pinkPreroll3" ID="{724D34F7-9742-4BE0-9828-27137ECEA5F7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="c6" ID="{E89C8A8C-E4B0-4BF6-9511-0D447AB8B2F5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+										</RandomSequenceContainer>
 									</ChildrenList>
-								</RandomSequenceContainer>
+								</BlendContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
-										<ItemRef Name="p2" ID="{BBBB6F37-F1E1-4FF3-97F5-23BB7DFB1ED5}"/>
+										<ItemRef Name="p1" ID="{794C3946-00C3-4F11-9ACA-8813212581D6}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="p1" ID="{794C3946-00C3-4F11-9ACA-8813212581D6}"/>
+										<ItemRef Name="pinkEnd" ID="{D6381C73-670D-48AF-A320-5684C531D075}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
-									<Grouping>
-										<SwitchRef Name="p2" ID="{7B47478C-0854-4E2F-B05C-A049F1C5F66E}"/>
-										<ItemList>
-											<ItemRef Name="p2" ID="{BBBB6F37-F1E1-4FF3-97F5-23BB7DFB1ED5}"/>
-										</ItemList>
-									</Grouping>
 									<Grouping>
 										<SwitchRef Name="p1" ID="{1F059495-BBDA-4A8A-839C-583C42C0C6FB}"/>
 										<ItemList>
@@ -289,7 +369,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="p2" ID="{DAE98BC1-45DF-4D77-8DD0-1451B24343ED}" ShortID="148845696">
+								<RandomSequenceContainer Name="pinkStart" ID="{DAE98BC1-45DF-4D77-8DD0-1451B24343ED}" ShortID="148845696">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
@@ -346,14 +426,14 @@
 										<ItemRef Name="p1" ID="{CE297813-5CD4-4DF1-8013-EFF7FDA038EE}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="p2" ID="{DAE98BC1-45DF-4D77-8DD0-1451B24343ED}"/>
+										<ItemRef Name="pinkStart" ID="{DAE98BC1-45DF-4D77-8DD0-1451B24343ED}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
 										<SwitchRef Name="p2" ID="{7B47478C-0854-4E2F-B05C-A049F1C5F66E}"/>
 										<ItemList>
-											<ItemRef Name="p2" ID="{DAE98BC1-45DF-4D77-8DD0-1451B24343ED}"/>
+											<ItemRef Name="pinkStart" ID="{DAE98BC1-45DF-4D77-8DD0-1451B24343ED}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>

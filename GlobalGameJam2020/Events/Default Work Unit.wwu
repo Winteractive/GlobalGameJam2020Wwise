@@ -29,20 +29,13 @@
 					<ChildrenList>
 						<Event Name="bgm_start" ID="{CB2C5442-EAC4-4026-A3BA-AEB61CBA6717}">
 							<ChildrenList>
-								<Action Name="" ID="{2BE72955-82BD-475E-A08E-8D407E941C99}" ShortID="398114233">
+								<Action Name="" ID="{B1C79500-820C-4C72-824B-73D77EB0F6A5}" ShortID="715199037">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="22"/>
+										<Property Name="ActionType" Type="int16" Value="41"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="idle" ID="{6102E9B2-00DE-48D3-95F1-ACC40EB18572}" WorkUnitID="{43F1869A-C872-4AC6-9DB4-7FC0AAB7C7D8}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{054BD232-3692-4FB5-B886-7EBFDEF72F4C}" ShortID="1026098348">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="music" ID="{E034ED35-A494-4BA7-8BCC-BD59EF516651}" WorkUnitID="{7F9CD1DB-5D4E-4BAB-8065-66B459DD433E}"/>
+											<ObjectRef Name="bofa_0" ID="{B6CECE9C-B2F4-47D0-98AA-59FA2B5C768F}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -50,6 +43,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="playerMusic" ID="{3408E111-89D1-46D6-9498-95738C0E4C56}" WorkUnitID="{7F9CD1DB-5D4E-4BAB-8065-66B459DD433E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{74D5E347-B68A-4CDC-B786-CE3D33687F66}" ShortID="261721026">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="baseLoop" ID="{27B0A3AE-A905-45E0-B0DB-AA1E756E8C73}" WorkUnitID="{7F9CD1DB-5D4E-4BAB-8065-66B459DD433E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -110,10 +110,10 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{96B3226B-1212-4537-B3D3-C252DB25D36D}" ShortID="210551494">
+								<Action Name="" ID="{8644A7F9-C8B2-4A96-85D6-213DCD8952A9}" ShortID="696392868">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="p2" ID="{BBBB6F37-F1E1-4FF3-97F5-23BB7DFB1ED5}" WorkUnitID="{3CE6858D-F3A8-4DEC-972E-D5F72D1F4527}"/>
+											<ObjectRef Name="pinkEnd" ID="{D6381C73-670D-48AF-A320-5684C531D075}" WorkUnitID="{3CE6858D-F3A8-4DEC-972E-D5F72D1F4527}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -135,7 +135,7 @@
 								<Action Name="" ID="{FFC58A0A-D9B5-4494-9E9D-BD99128E89CC}" ShortID="587144156">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="p2" ID="{DAE98BC1-45DF-4D77-8DD0-1451B24343ED}" WorkUnitID="{3CE6858D-F3A8-4DEC-972E-D5F72D1F4527}"/>
+											<ObjectRef Name="pinkStart" ID="{DAE98BC1-45DF-4D77-8DD0-1451B24343ED}" WorkUnitID="{3CE6858D-F3A8-4DEC-972E-D5F72D1F4527}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

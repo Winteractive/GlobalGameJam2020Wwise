@@ -2233,9 +2233,6 @@
 									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{B49D6146-422E-495C-953A-0E07550C5649}" ShortID="169540367">
-											<PropertyList>
-												<Property Name="PlayMode" Type="int16" Value="2"/>
-											</PropertyList>
 											<ChildrenList>
 												<MusicPlaylistItem Name="" ID="{700740E6-166A-46B7-9828-073D36E03A7E}" ShortID="13917892">
 													<PropertyList>
@@ -2253,6 +2250,7 @@
 													<PropertyList>
 														<Property Name="LoopCount" Type="int16" Value="0"/>
 														<Property Name="PlayMode" Type="int16" Value="2"/>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 													</PropertyList>
 													<ChildrenList>
 														<MusicPlaylistItem Name="" ID="{2C0EDC66-C022-442F-94D8-39B05D6DCE83}" ShortID="1044943930">
@@ -2970,7 +2968,6 @@
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
-											<ReferenceList/>
 											<TransitionInfo/>
 										</MusicTransition>
 									</TransitionList>

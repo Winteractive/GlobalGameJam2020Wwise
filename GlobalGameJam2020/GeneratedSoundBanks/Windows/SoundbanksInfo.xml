@@ -22,12 +22,12 @@
 			<Path>cloudBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2985635692" Name="bgm_start" ObjectPath="\Events\Default Work Unit\Music\bgm_start" DurationType="Infinite"/>
-				<Event Id="2420368622" Name="blue_release_charge" ObjectPath="\Events\Default Work Unit\Music\blue_release_charge" DurationType="OneShot" DurationMin="1.385003" DurationMax="2.876153"/>
-				<Event Id="4065460003" Name="blue_start_charge" ObjectPath="\Events\Default Work Unit\Music\blue_start_charge" DurationType="OneShot" DurationMin="1.238280" DurationMax="1.810776"/>
+				<Event Id="2420368622" Name="blue_release_charge" ObjectPath="\Events\Default Work Unit\Music\blue_release_charge" DurationType="OneShot" DurationMin="1.854104" DurationMax="2.117664"/>
+				<Event Id="4065460003" Name="blue_start_charge" ObjectPath="\Events\Default Work Unit\Music\blue_start_charge" DurationType="OneShot" DurationMin="1.411769" DurationMax="1.588254"/>
 				<Event Id="1639892490" Name="bofa_0" ObjectPath="\Events\Default Work Unit\test\bofa_0" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1639892491" Name="bofa_1" ObjectPath="\Events\Default Work Unit\test\bofa_1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1282430586" Name="pink_release_charge" ObjectPath="\Events\Default Work Unit\Music\pink_release_charge" DurationType="OneShot" DurationMin="1.054581" DurationMax="2.275355"/>
-				<Event Id="1084135343" Name="pink_start_charge" ObjectPath="\Events\Default Work Unit\Music\pink_start_charge" DurationType="OneShot" DurationMin="1.238260" DurationMax="1.609565"/>
+				<Event Id="1282430586" Name="pink_release_charge" ObjectPath="\Events\Default Work Unit\Music\pink_release_charge" DurationType="OneShot" DurationMin="1.764769" DurationMax="2.028306"/>
+				<Event Id="1084135343" Name="pink_start_charge" ObjectPath="\Events\Default Work Unit\Music\pink_start_charge" DurationType="OneShot" DurationMin="1.411746" DurationMax="1.411769"/>
 				<Event Id="4236329311" Name="player_grounded" ObjectPath="\Events\Default Work Unit\sfx\player_grounded" DurationType="OneShot" DurationMin="1.058821" DurationMax="1.411769"/>
 				<Event Id="1751218143" Name="player_mounted" ObjectPath="\Events\Default Work Unit\sfx\player_mounted" DurationType="OneShot" DurationMin="1.058821" DurationMax="1.411769"/>
 				<Event Id="2590882482" Name="player_sleep" ObjectPath="\Events\Default Work Unit\sfx\player_sleep" DurationType="OneShot" DurationMin="1.058821" DurationMax="1.411769"/>
@@ -44,6 +44,10 @@
 				<File Id="5024986" Language="SFX">
 					<ShortName>9.wav</ShortName>
 					<Path>SFX\9_9B96ECC7.wem</Path>
+				</File>
+				<File Id="8140043" Language="SFX">
+					<ShortName>pinkPreroll3.wav</ShortName>
+					<Path>SFX\pinkPreroll3_6296B0F9.wem</Path>
 				</File>
 				<File Id="27414172" Language="SFX">
 					<ShortName>chordShort2.wav</ShortName>
@@ -80,6 +84,10 @@
 				<File Id="139381258" Language="SFX">
 					<ShortName>loop2.wav</ShortName>
 					<Path>SFX\loop2_9B96ECC7.wem</Path>
+				</File>
+				<File Id="144187991" Language="SFX">
+					<ShortName>pinkPreroll1.wav</ShortName>
+					<Path>SFX\pinkPreroll1_6296B0F9.wem</Path>
 				</File>
 				<File Id="174443776" Language="SFX">
 					<ShortName>7.wav</ShortName>
@@ -204,6 +212,10 @@
 				<File Id="720717461" Language="SFX">
 					<ShortName>loop8.wav</ShortName>
 					<Path>SFX\loop8_9B96ECC7.wem</Path>
+				</File>
+				<File Id="721845397" Language="SFX">
+					<ShortName>pinkPreroll2.wav</ShortName>
+					<Path>SFX\pinkPreroll2_6296B0F9.wem</Path>
 				</File>
 				<File Id="727573916" Language="SFX">
 					<ShortName>c9.wav</ShortName>

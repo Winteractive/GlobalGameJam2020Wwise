@@ -23,12 +23,12 @@
 			<IncludedEvents>
 				<Event Id="2985635692" Name="bgm_start" ObjectPath="\Events\Default Work Unit\Music\bgm_start" DurationType="Infinite"/>
 				<Event Id="2420368622" Name="blue_release_charge" ObjectPath="\Events\Default Work Unit\Music\blue_release_charge" DurationType="OneShot" DurationMin="2.207104" DurationMax="2.470664"/>
-				<Event Id="4065460003" Name="blue_start_charge" ObjectPath="\Events\Default Work Unit\Music\blue_start_charge" DurationType="OneShot" DurationMin="1.411769" DurationMax="1.588254"/>
+				<Event Id="4065460003" Name="blue_start_charge" ObjectPath="\Events\Default Work Unit\Music\blue_start_charge" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1639892490" Name="bofa_0" ObjectPath="\Events\Default Work Unit\test\bofa_0" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1639892491" Name="bofa_1" ObjectPath="\Events\Default Work Unit\test\bofa_1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2305840145" Name="level_transition" ObjectPath="\Events\Default Work Unit\sfx\level_transition" DurationType="OneShot" DurationMin="2.207104" DurationMax="2.470664"/>
 				<Event Id="1282430586" Name="pink_release_charge" ObjectPath="\Events\Default Work Unit\Music\pink_release_charge" DurationType="OneShot" DurationMin="1.764769" DurationMax="2.028306"/>
-				<Event Id="1084135343" Name="pink_start_charge" ObjectPath="\Events\Default Work Unit\Music\pink_start_charge" DurationType="OneShot" DurationMin="1.411746" DurationMax="1.411769"/>
+				<Event Id="1084135343" Name="pink_start_charge" ObjectPath="\Events\Default Work Unit\Music\pink_start_charge" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4236329311" Name="player_grounded" ObjectPath="\Events\Default Work Unit\sfx\player_grounded" DurationType="OneShot" DurationMin="1.411746" DurationMax="1.411769"/>
 				<Event Id="1751218143" Name="player_mounted" ObjectPath="\Events\Default Work Unit\sfx\player_mounted" DurationType="OneShot" DurationMin="1.411746" DurationMax="1.411769"/>
 				<Event Id="189392646" Name="player_repair" ObjectPath="\Events\Default Work Unit\sfx\player_repair" DurationType="OneShot" DurationMin="4.708685" DurationMax="6.280998"/>
@@ -155,10 +155,6 @@
 					<ShortName>5b.wav</ShortName>
 					<Path>SFX\5b_9B96ECC7.wem</Path>
 				</File>
-				<File Id="417024678" Language="SFX">
-					<ShortName>crash1.wav</ShortName>
-					<Path>SFX\crash1_6296B0F9.wem</Path>
-				</File>
 				<File Id="418852700" Language="SFX">
 					<ShortName>8b.wav</ShortName>
 					<Path>SFX\8b_9B96ECC7.wem</Path>
@@ -226,10 +222,6 @@
 				<File Id="721845397" Language="SFX">
 					<ShortName>pinkPreroll2.wav</ShortName>
 					<Path>SFX\pinkPreroll2_6296B0F9.wem</Path>
-				</File>
-				<File Id="727573916" Language="SFX">
-					<ShortName>c9.wav</ShortName>
-					<Path>SFX\c9_6296B0F9.wem</Path>
 				</File>
 				<File Id="730453745" Language="SFX">
 					<ShortName>loop9.wav</ShortName>

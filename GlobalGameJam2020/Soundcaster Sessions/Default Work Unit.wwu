@@ -81,15 +81,15 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="pink_volume" ID="{B4C6B4F6-B16D-402E-B03F-4F29DF8BAE88}"/>
-							<Value>0</Value>
+							<Value>1.21597260243501E-311</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="pink_charge" ID="{593F8334-0B59-4206-B9BA-6F0910591AC0}"/>
-							<Value>1.271812557278E-311</Value>
+							<Value>1.21597260409507E-311</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="blue_volume" ID="{078D51EB-CD4A-43CE-A37E-259EB4A57C9C}"/>
-							<Value>0</Value>
+							<Value>1.21597260392906E-311</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="sleep_filter" ID="{8C06304C-3F9A-476B-8C42-9D2494D5B9C1}"/>
@@ -97,7 +97,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="blue_charge" ID="{5FF0B5F6-7E98-4D75-8823-D637EF4080EA}"/>
-							<Value>1.27181255495391E-311</Value>
+							<Value>1.21597260376306E-311</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">

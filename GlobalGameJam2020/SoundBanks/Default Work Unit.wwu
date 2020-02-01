@@ -18,6 +18,7 @@
 						<ObjectRef Name="test" ID="{890E7D0A-5B17-46A0-80F7-C1A7958468DE}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="player_sleep" ID="{90BF3021-B395-470B-9C13-0BE7701DB382}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="pink_start_charge" ID="{7F96C3E2-696D-47AE-9192-CE510F0F3425}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="level_transition" ID="{63F2AB0E-2371-47BB-A440-F39F1D307D6F}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="bofa_0" ID="{B6CECE9C-B2F4-47D0-98AA-59FA2B5C768F}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" WorkUnitID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="test_play2" ID="{3CED5996-0988-48A4-AC77-227089465194}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
@@ -27,6 +28,7 @@
 						<ObjectRef Name="pink_release_charge" ID="{C731B096-81F5-4BF8-A71F-A21760A16310}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Dynamic Dialogue" ID="{309AF5DE-031F-4CE0-9B9B-C0A536275343}" WorkUnitID="{309AF5DE-031F-4CE0-9B9B-C0A536275343}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="set_blue_volume_to_1" ID="{EBAAC50A-982D-4CE5-8A08-E9962A7DBB03}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="player_repair" ID="{0AE638CD-5AAC-4DC4-A8B9-B00ADF24DFFD}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="sfx" ID="{A63CD80E-B46D-4DDA-9BB9-13E5F8201999}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="test_play" ID="{52F921EF-DD5D-4DFA-A6E7-2A9D4C93C1A4}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="blue_start_charge" ID="{253CC8A2-AE31-4E6A-9825-A290D7FD0270}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>

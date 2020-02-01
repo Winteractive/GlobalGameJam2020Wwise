@@ -26,12 +26,14 @@
 				<Event Id="4065460003" Name="blue_start_charge" ObjectPath="\Events\Default Work Unit\Music\blue_start_charge" DurationType="OneShot" DurationMin="1.411769" DurationMax="1.588254"/>
 				<Event Id="1639892490" Name="bofa_0" ObjectPath="\Events\Default Work Unit\test\bofa_0" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1639892491" Name="bofa_1" ObjectPath="\Events\Default Work Unit\test\bofa_1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2305840145" Name="level_transition" ObjectPath="\Events\Default Work Unit\sfx\level_transition" DurationType="OneShot" DurationMin="2.207104" DurationMax="2.470664"/>
 				<Event Id="1282430586" Name="pink_release_charge" ObjectPath="\Events\Default Work Unit\Music\pink_release_charge" DurationType="OneShot" DurationMin="1.764769" DurationMax="2.028306"/>
 				<Event Id="1084135343" Name="pink_start_charge" ObjectPath="\Events\Default Work Unit\Music\pink_start_charge" DurationType="OneShot" DurationMin="1.411746" DurationMax="1.411769"/>
 				<Event Id="4236329311" Name="player_grounded" ObjectPath="\Events\Default Work Unit\sfx\player_grounded" DurationType="OneShot" DurationMin="1.411746" DurationMax="1.411769"/>
 				<Event Id="1751218143" Name="player_mounted" ObjectPath="\Events\Default Work Unit\sfx\player_mounted" DurationType="OneShot" DurationMin="1.411746" DurationMax="1.411769"/>
-				<Event Id="2590882482" Name="player_sleep" ObjectPath="\Events\Default Work Unit\sfx\player_sleep" DurationType="OneShot" DurationMin="1.917058" DurationMax="2.720542"/>
-				<Event Id="1321591602" Name="players_collide" ObjectPath="\Events\Default Work Unit\sfx\players_collide" DurationType="OneShot" DurationMin="1.411769" DurationMax="2.117664"/>
+				<Event Id="189392646" Name="player_repair" ObjectPath="\Events\Default Work Unit\sfx\player_repair" DurationType="OneShot" DurationMin="4.708685" DurationMax="6.280998"/>
+				<Event Id="2590882482" Name="player_sleep" ObjectPath="\Events\Default Work Unit\sfx\player_sleep" DurationType="OneShot" DurationMin="2.017058" DurationMax="2.820542"/>
+				<Event Id="1321591602" Name="players_collide" ObjectPath="\Events\Default Work Unit\sfx\players_collide" DurationType="OneShot" DurationMin="1.486769" DurationMax="2.192664"/>
 				<Event Id="2093275268" Name="set_blue_volume_to_0" ObjectPath="\Events\Default Work Unit\test\set_blue_volume_to_0" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2093275269" Name="set_blue_volume_to_1" ObjectPath="\Events\Default Work Unit\test\set_blue_volume_to_1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1279113544" Name="set_pink_volume_to_0" ObjectPath="\Events\Default Work Unit\test\set_pink_volume_to_0" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -72,6 +74,10 @@
 				<File Id="68673418" Language="SFX">
 					<ShortName>c5.wav</ShortName>
 					<Path>SFX\c5_6296B0F9.wem</Path>
+				</File>
+				<File Id="81036399" Language="SFX">
+					<ShortName>repair2.wav</ShortName>
+					<Path>SFX\repair2_6296B0F9.wem</Path>
 				</File>
 				<File Id="85028701" Language="SFX">
 					<ShortName>c4c.wav</ShortName>
@@ -292,6 +298,10 @@
 				<File Id="998256436" Language="SFX">
 					<ShortName>P1.wav</ShortName>
 					<Path>SFX\P1_9B96ECC7.wem</Path>
+				</File>
+				<File Id="1019612502" Language="SFX">
+					<ShortName>repair1.wav</ShortName>
+					<Path>SFX\repair1_6296B0F9.wem</Path>
 				</File>
 				<File Id="1026497866" Language="SFX">
 					<ShortName>2b.wav</ShortName>

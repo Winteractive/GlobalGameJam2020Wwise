@@ -4,11 +4,13 @@
 		<UserProjectSettings Name="" ID="{68DE5722-2463-407B-83C1-1326529DDA66}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\vikto\Desktop\GAMEJAM2020\MUSICA"/>
+				<Property Name="Event Action List\{0AE638CD-5AAC-4DC4-A8B9-B00ADF24DFFD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{253CC8A2-AE31-4E6A-9825-A290D7FD0270}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2E626DBB-AEC8-4668-B06F-907AA767F051}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{31346FEF-9CBB-4945-AFBD-24E8717BC4C0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3CED5996-0988-48A4-AC77-227089465194}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{52F921EF-DD5D-4DFA-A6E7-2A9D4C93C1A4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{63F2AB0E-2371-47BB-A440-F39F1D307D6F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{717FABDF-10D9-42E9-B12C-8935B82D96D8}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{7F96C3E2-696D-47AE-9192-CE510F0F3425}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{80C46E2D-FA4F-4411-98CB-747F196ED3D9}\x64_Expand States" Type="string" Value=""/>
@@ -143,8 +145,8 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="EIbvM5ZxoE6WsYHvVCED4g=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="1kvFBepX9kuEKixFCbc5n42F5jyo8+xNly7V9y0fRSc="/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="rIG8lKU5eUGB6GrOon4ubH66fldO629Gn/6umiAo540KfQ6JF1ugRoD3waeVhGjeDtg8pm202k2buRPl+CAZmQ=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="0AhgS1xke0itRg2eojMVjdZLxQXqV/ZLhCosRQm3OZ9FlSpRubu/TKtrUhskXYayjYXmPKjz7E2XLtX3LR9FJw=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="frp+V07rb0af/q6aICjnjQp9DokXW6BGgPfBp5WEaN4O2DymbbTaTZu5E+X4IBmZ"/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="/7BqaV5nt0CYmvBoDmo+X5qG8UNyyMZKnbR/wKq3x9i63KKyenkETJ/J3ipfKEtI"/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="dKwnWW3t1UyK+nJJ6tuW1w=="/>

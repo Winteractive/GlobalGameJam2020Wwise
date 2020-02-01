@@ -30,10 +30,6 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="playerMusic" ID="{3408E111-89D1-46D6-9498-95738C0E4C56}" WorkUnitID="{7F9CD1DB-5D4E-4BAB-8065-66B459DD433E}"/>
-							<Position X="1" Y="2"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="player_sleep" ID="{90BF3021-B395-470B-9C13-0BE7701DB382}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
 							<Position X="1" Y="3"/>
 						</Module>
@@ -46,8 +42,16 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="playerMusic" ID="{3408E111-89D1-46D6-9498-95738C0E4C56}" WorkUnitID="{7F9CD1DB-5D4E-4BAB-8065-66B459DD433E}"/>
+							<ObjectRef Name="player repair" ID="{271B9AC5-F482-46C3-84D0-4245DB1636F6}" WorkUnitID="{3CE6858D-F3A8-4DEC-972E-D5F72D1F4527}"/>
 							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="REPAIR" ID="{4B6008D0-645C-487B-AD46-0D9EA233158D}" WorkUnitID="{3CE6858D-F3A8-4DEC-972E-D5F72D1F4527}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="level_transition" ID="{63F2AB0E-2371-47BB-A440-F39F1D307D6F}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="set_pink_volume_to_0" ID="{FF1811C4-6005-4433-8AE5-BF9818CA2A08}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
@@ -81,7 +85,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="pink_charge" ID="{593F8334-0B59-4206-B9BA-6F0910591AC0}"/>
-							<Value>1.09590619683476E-311</Value>
+							<Value>1.271812557278E-311</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="blue_volume" ID="{078D51EB-CD4A-43CE-A37E-259EB4A57C9C}"/>
@@ -93,7 +97,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="blue_charge" ID="{5FF0B5F6-7E98-4D75-8823-D637EF4080EA}"/>
-							<Value>8.58930960030575E-312</Value>
+							<Value>1.27181255495391E-311</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">

@@ -176,6 +176,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{BE60A4FD-B8D8-4BAB-8A93-BF56A2F67098}" ShortID="735278396">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.075"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="players collide" ID="{512A9545-BBB9-4CBF-AB6B-521B245D86B2}" WorkUnitID="{3CE6858D-F3A8-4DEC-972E-D5F72D1F4527}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="player_sleep" ID="{90BF3021-B395-470B-9C13-0BE7701DB382}">
@@ -209,6 +219,39 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{4FD652ED-8D55-4C9F-A8C2-67F0F535745F}" ShortID="752252546">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.05"/>
+										<Property Name="Probability" Type="Real64" Value="14"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sleepytime" ID="{A905BBA2-C8E2-45C5-BFD0-1570B768411F}" WorkUnitID="{3CE6858D-F3A8-4DEC-972E-D5F72D1F4527}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4698676A-86E1-49BF-BC99-33EA8B8EF6C8}" ShortID="857630163">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+										<Property Name="Probability" Type="Real64" Value="21"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sleepytime" ID="{A905BBA2-C8E2-45C5-BFD0-1570B768411F}" WorkUnitID="{3CE6858D-F3A8-4DEC-972E-D5F72D1F4527}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{47F04948-EEE1-4C6B-829C-B25B90809DDB}" ShortID="53843973">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.075"/>
+										<Property Name="Probability" Type="Real64" Value="25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sleepytime" ID="{A905BBA2-C8E2-45C5-BFD0-1570B768411F}" WorkUnitID="{3CE6858D-F3A8-4DEC-972E-D5F72D1F4527}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="player_mounted" ID="{31346FEF-9CBB-4945-AFBD-24E8717BC4C0}">
@@ -217,6 +260,50 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="hit ground" ID="{F77126B6-28A6-47F7-8281-CD4013559BAD}" WorkUnitID="{3CE6858D-F3A8-4DEC-972E-D5F72D1F4527}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_repair" ID="{0AE638CD-5AAC-4DC4-A8B9-B00ADF24DFFD}">
+							<ChildrenList>
+								<Action Name="" ID="{98298CC1-6381-4079-BC3E-6C49AE0FAF01}" ShortID="7578112">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="REPAIR" ID="{4B6008D0-645C-487B-AD46-0D9EA233158D}" WorkUnitID="{3CE6858D-F3A8-4DEC-972E-D5F72D1F4527}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="level_transition" ID="{63F2AB0E-2371-47BB-A440-F39F1D307D6F}">
+							<ChildrenList>
+								<Action Name="" ID="{C95EC3F0-E348-47A1-B78F-AE547B0DF242}" ShortID="632785442">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.75"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="playerMusic" ID="{3408E111-89D1-46D6-9498-95738C0E4C56}" WorkUnitID="{7F9CD1DB-5D4E-4BAB-8065-66B459DD433E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C86CE485-ACDF-4F8F-8A6B-5B0EBEA71D0A}" ShortID="630397819">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="baseLoop" ID="{27B0A3AE-A905-45E0-B0DB-AA1E756E8C73}" WorkUnitID="{7F9CD1DB-5D4E-4BAB-8065-66B459DD433E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4979C897-CB9D-4C7D-AD25-9B8D83533AD2}" ShortID="147803821">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LEVELEND" ID="{F61E8F84-767A-4AE7-82CB-56B14FAE5F64}" WorkUnitID="{3CE6858D-F3A8-4DEC-972E-D5F72D1F4527}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

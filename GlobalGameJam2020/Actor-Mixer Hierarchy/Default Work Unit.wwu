@@ -364,6 +364,210 @@
 						</SwitchContainer>
 					</ChildrenList>
 				</ActorMixer>
+				<RandomSequenceContainer Name="hit ground" ID="{F77126B6-28A6-47F7-8281-CD4013559BAD}" ShortID="477208535">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{33EF8610-7196-4EA0-96B1-81EF542103E2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="tom1" ID="{0070CF5A-C19C-4F36-8A59-E8B61DE9ABC0}" ShortID="486984970">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{33EF8610-7196-4EA0-96B1-81EF542103E2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="tom1" ID="{ED51EAE1-059C-42FA-8FC5-1C0F9610C797}" ShortID="339584839">
+									<Language>SFX</Language>
+									<AudioFile>tom1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="tom1" ID="{ED51EAE1-059C-42FA-8FC5-1C0F9610C797}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="tom2" ID="{7F5BB56F-7358-4AD6-AB68-1AA25256952B}" ShortID="1032848894">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{33EF8610-7196-4EA0-96B1-81EF542103E2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="tom2" ID="{FE2268F2-8AD7-40E8-AC42-D7E98DD8A1D2}" ShortID="929132258">
+									<Language>SFX</Language>
+									<AudioFile>tom2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="tom2" ID="{FE2268F2-8AD7-40E8-AC42-D7E98DD8A1D2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="tom3" ID="{C641976D-075C-4645-9C52-F7E0CFCFC806}" ShortID="324528549">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{33EF8610-7196-4EA0-96B1-81EF542103E2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="tom3" ID="{1A81914E-38E2-489D-8C86-35A9C7FE68B0}" ShortID="994624300">
+									<Language>SFX</Language>
+									<AudioFile>tom3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="tom3" ID="{1A81914E-38E2-489D-8C86-35A9C7FE68B0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="tom4" ID="{3E4CA593-F125-4FA1-9DE5-8C987FA5840F}" ShortID="550331251">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{33EF8610-7196-4EA0-96B1-81EF542103E2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="tom4" ID="{8ED5A505-1C68-434A-9E53-28B4C5B132EC}" ShortID="700184144">
+									<Language>SFX</Language>
+									<AudioFile>tom4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="tom4" ID="{8ED5A505-1C68-434A-9E53-28B4C5B132EC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="tom5" ID="{66AEE0DE-6FF3-4A03-8CA5-ACBBD44B6CEE}" ShortID="363624577">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{33EF8610-7196-4EA0-96B1-81EF542103E2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="tom5" ID="{01109310-6CE2-443C-B00F-1268A09884F2}" ShortID="332050598">
+									<Language>SFX</Language>
+									<AudioFile>tom5.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="tom5" ID="{01109310-6CE2-443C-B00F-1268A09884F2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="tom6" ID="{CFED9E22-E204-4744-B820-E6C089ACBB67}" ShortID="1028736158">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{33EF8610-7196-4EA0-96B1-81EF542103E2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="tom6" ID="{40C5694C-2768-44AC-BFE0-2B5A6326DD5B}" ShortID="668846206">
+									<Language>SFX</Language>
+									<AudioFile>tom6.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="tom6" ID="{40C5694C-2768-44AC-BFE0-2B5A6326DD5B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="players collide" ID="{512A9545-BBB9-4CBF-AB6B-521B245D86B2}" ShortID="695119791">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{33EF8610-7196-4EA0-96B1-81EF542103E2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="c8" ID="{60324E4F-C051-4F26-AFF4-9001915D03C7}" ShortID="271046689">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{33EF8610-7196-4EA0-96B1-81EF542103E2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="c8" ID="{6B7A267A-924F-40B6-8B6C-D889A4166503}" ShortID="101323097">
+									<Language>SFX</Language>
+									<AudioFile>c8.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="785788819"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="c8" ID="{6B7A267A-924F-40B6-8B6C-D889A4166503}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="c7" ID="{45EB9B26-4FD6-436F-9B38-387BD2AAA7FC}" ShortID="394471977">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{33EF8610-7196-4EA0-96B1-81EF542103E2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="c7" ID="{98115EC1-5024-4098-95D9-A52E01EBC4C3}" ShortID="733073734">
+									<Language>SFX</Language>
+									<AudioFile>c7.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="240932275"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="c7" ID="{98115EC1-5024-4098-95D9-A52E01EBC4C3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cymbal1" ID="{C7452EBE-506F-4572-B7D5-3EEE9EAB8A0C}" ShortID="697237742">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{33EF8610-7196-4EA0-96B1-81EF542103E2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cymbal1" ID="{78428AF4-B7E6-4456-AFA6-E142D90FB57A}" ShortID="110014940">
+									<Language>SFX</Language>
+									<AudioFile>cymbal1.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="730956311"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="cymbal1" ID="{78428AF4-B7E6-4456-AFA6-E142D90FB57A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

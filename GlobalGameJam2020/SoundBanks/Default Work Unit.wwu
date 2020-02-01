@@ -6,11 +6,17 @@
 				<SoundBank Name="cloudBank" ID="{FF6EB229-25CE-4F4F-B331-95A1BF17617C}">
 					<ObjectInclusionList>
 						<ObjectRef Name="bgm_start" ID="{CB2C5442-EAC4-4026-A3BA-AEB61CBA6717}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Music" ID="{94BC81AC-39A5-4179-81E8-6ACEA27E2E6C}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="players_collide" ID="{717FABDF-10D9-42E9-B12C-8935B82D96D8}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="stop_all" ID="{80C46E2D-FA4F-4411-98CB-747F196ED3D9}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Default Work Unit" ID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="p2_start_charge" ID="{7F96C3E2-696D-47AE-9192-CE510F0F3425}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" WorkUnitID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="test_play2" ID="{3CED5996-0988-48A4-AC77-227089465194}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="p1_release_charge" ID="{D07315F8-7ADB-4923-8165-7DEABA425065}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="player_grounded" ID="{A1B5D817-5664-4B3A-9D2E-42FE33CEE48F}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="p2_release_charge" ID="{C731B096-81F5-4BF8-A71F-A21760A16310}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx" ID="{A63CD80E-B46D-4DDA-9BB9-13E5F8201999}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="test_play" ID="{52F921EF-DD5D-4DFA-A6E7-2A9D4C93C1A4}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="p1_start_charge" ID="{253CC8A2-AE31-4E6A-9825-A290D7FD0270}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

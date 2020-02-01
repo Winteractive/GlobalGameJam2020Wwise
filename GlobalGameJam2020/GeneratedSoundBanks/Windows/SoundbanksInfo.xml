@@ -26,6 +26,8 @@
 				<Event Id="2816184176" Name="p1_start_charge" ObjectPath="\Events\Default Work Unit\Music\p1_start_charge" DurationType="OneShot" DurationMin="1.238280" DurationMax="1.810776"/>
 				<Event Id="2222857940" Name="p2_release_charge" ObjectPath="\Events\Default Work Unit\Music\p2_release_charge" DurationType="OneShot" DurationMin="1.238280" DurationMax="1.910025"/>
 				<Event Id="2550801177" Name="p2_start_charge" ObjectPath="\Events\Default Work Unit\Music\p2_start_charge" DurationType="OneShot" DurationMin="1.238260" DurationMax="1.609565"/>
+				<Event Id="4236329311" Name="player_grounded" ObjectPath="\Events\Default Work Unit\sfx\player_grounded" DurationType="OneShot" DurationMin="1.058821" DurationMax="1.411769"/>
+				<Event Id="1321591602" Name="players_collide" ObjectPath="\Events\Default Work Unit\sfx\players_collide" DurationType="OneShot" DurationMin="1.411769" DurationMax="2.117664"/>
 				<Event Id="452547817" Name="stop_all" ObjectPath="\Events\Default Work Unit\stop_all" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="25579138" Name="test_play" ObjectPath="\Events\Default Work Unit\test_play" DurationType="OneShot" DurationMin="1.018417" DurationMax="1.018417"/>
 				<Event Id="3899496084" Name="test_play2" ObjectPath="\Events\Default Work Unit\test_play2" DurationType="OneShot" DurationMin="1.018417" DurationMax="1.018417"/>
@@ -83,6 +85,14 @@
 					<ShortName>c7.wav</ShortName>
 					<Path>SFX\c7_6296B0F9.wem</Path>
 				</File>
+				<File Id="332050598" Language="SFX">
+					<ShortName>tom5.wav</ShortName>
+					<Path>SFX\tom5_6296B0F9.wem</Path>
+				</File>
+				<File Id="339584839" Language="SFX">
+					<ShortName>tom1.wav</ShortName>
+					<Path>SFX\tom1_6296B0F9.wem</Path>
+				</File>
 				<File Id="364772520" Language="SFX">
 					<ShortName>5b.wav</ShortName>
 					<Path>SFX\5b_9B96ECC7.wem</Path>
@@ -135,6 +145,14 @@
 					<ShortName>1b.wav</ShortName>
 					<Path>SFX\1b_9B96ECC7.wem</Path>
 				</File>
+				<File Id="668846206" Language="SFX">
+					<ShortName>tom6.wav</ShortName>
+					<Path>SFX\tom6_6296B0F9.wem</Path>
+				</File>
+				<File Id="700184144" Language="SFX">
+					<ShortName>tom4.wav</ShortName>
+					<Path>SFX\tom4_6296B0F9.wem</Path>
+				</File>
 				<File Id="720717461" Language="SFX">
 					<ShortName>loop8.wav</ShortName>
 					<Path>SFX\loop8_9B96ECC7.wem</Path>
@@ -179,6 +197,10 @@
 					<ShortName>loop10.wav</ShortName>
 					<Path>SFX\loop10_9B96ECC7.wem</Path>
 				</File>
+				<File Id="929132258" Language="SFX">
+					<ShortName>tom2.wav</ShortName>
+					<Path>SFX\tom2_6296B0F9.wem</Path>
+				</File>
 				<File Id="951483357" Language="SFX">
 					<ShortName>11.wav</ShortName>
 					<Path>SFX\11_9B96ECC7.wem</Path>
@@ -190,6 +212,10 @@
 				<File Id="991070477" Language="SFX">
 					<ShortName>loop6.wav</ShortName>
 					<Path>SFX\loop6_9B96ECC7.wem</Path>
+				</File>
+				<File Id="994624300" Language="SFX">
+					<ShortName>tom3.wav</ShortName>
+					<Path>SFX\tom3_6296B0F9.wem</Path>
 				</File>
 				<File Id="1026497866" Language="SFX">
 					<ShortName>2b.wav</ShortName>

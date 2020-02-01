@@ -10,6 +10,14 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="players_collide" ID="{717FABDF-10D9-42E9-B12C-8935B82D96D8}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="player_grounded" ID="{A1B5D817-5664-4B3A-9D2E-42FE33CEE48F}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="p1_start_charge" ID="{253CC8A2-AE31-4E6A-9825-A290D7FD0270}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -28,8 +36,16 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="p2volume" ID="{B4C6B4F6-B16D-402E-B03F-4F29DF8BAE88}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="p2charge" ID="{593F8334-0B59-4206-B9BA-6F0910591AC0}"/>
 							<Value>8.58930958536521E-312</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="p1volume" ID="{078D51EB-CD4A-43CE-A37E-259EB4A57C9C}"/>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="p1charge" ID="{5FF0B5F6-7E98-4D75-8823-D637EF4080EA}"/>

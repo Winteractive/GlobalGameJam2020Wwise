@@ -19,6 +19,16 @@
 						<Property Name="SlewRateUp" Type="Real64" Value="17"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="p1volume" ID="{078D51EB-CD4A-43CE-A37E-259EB4A57C9C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="p2volume" ID="{B4C6B4F6-B16D-402E-B03F-4F29DF8BAE88}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

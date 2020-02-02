@@ -22,16 +22,16 @@
 			<Path>cloudBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2985635692" Name="bgm_start" ObjectPath="\Events\Default Work Unit\Music\bgm_start" DurationType="Infinite"/>
-				<Event Id="2420368622" Name="blue_release_charge" ObjectPath="\Events\Default Work Unit\Music\blue_release_charge" DurationType="OneShot" DurationMin="2.207104" DurationMax="2.470664"/>
+				<Event Id="2420368622" Name="blue_release_charge" ObjectPath="\Events\Default Work Unit\Music\blue_release_charge" DurationType="OneShot" DurationMin="1.854104" DurationMax="2.117664"/>
 				<Event Id="4065460003" Name="blue_start_charge" ObjectPath="\Events\Default Work Unit\Music\blue_start_charge" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1639892490" Name="bofa_0" ObjectPath="\Events\Default Work Unit\test\bofa_0" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1639892491" Name="bofa_1" ObjectPath="\Events\Default Work Unit\test\bofa_1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2707338441" Name="level_restart" ObjectPath="\Events\Default Work Unit\sfx\level_restart" DurationType="OneShot" DurationMin="1.411746" DurationMax="1.411769"/>
 				<Event Id="2305840145" Name="level_transition" ObjectPath="\Events\Default Work Unit\sfx\level_transition" DurationType="OneShot" DurationMin="2.207104" DurationMax="2.470664"/>
-				<Event Id="1282430586" Name="pink_release_charge" ObjectPath="\Events\Default Work Unit\Music\pink_release_charge" DurationType="OneShot" DurationMin="1.764769" DurationMax="2.028306"/>
+				<Event Id="1282430586" Name="pink_release_charge" ObjectPath="\Events\Default Work Unit\Music\pink_release_charge" DurationType="OneShot" DurationMin="1.411769" DurationMax="1.675306"/>
 				<Event Id="1084135343" Name="pink_start_charge" ObjectPath="\Events\Default Work Unit\Music\pink_start_charge" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="4236329311" Name="player_grounded" ObjectPath="\Events\Default Work Unit\sfx\player_grounded" DurationType="OneShot" DurationMin="1.411746" DurationMax="1.411769"/>
-				<Event Id="1751218143" Name="player_mounted" ObjectPath="\Events\Default Work Unit\sfx\player_mounted" DurationType="OneShot" DurationMin="1.411746" DurationMax="1.411769"/>
+				<Event Id="4236329311" Name="player_grounded" ObjectPath="\Events\Default Work Unit\sfx\player_grounded" DurationType="OneShot" DurationMin="1.120504" DurationMax="1.120522"/>
+				<Event Id="1751218143" Name="player_mounted" ObjectPath="\Events\Default Work Unit\sfx\player_mounted" DurationType="OneShot" DurationMin="1.120504" DurationMax="1.120522"/>
 				<Event Id="189392646" Name="player_repair" ObjectPath="\Events\Default Work Unit\sfx\player_repair" DurationType="OneShot" DurationMin="4.708685" DurationMax="6.280998"/>
 				<Event Id="2590882482" Name="player_sleep" ObjectPath="\Events\Default Work Unit\sfx\player_sleep" DurationType="OneShot" DurationMin="2.017058" DurationMax="2.820542"/>
 				<Event Id="1321591602" Name="players_collide" ObjectPath="\Events\Default Work Unit\sfx\players_collide" DurationType="OneShot" DurationMin="0.535385" DurationMax="0.750306"/>

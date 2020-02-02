@@ -101,13 +101,6 @@
 											</ReferenceList>
 											<ChildrenList>
 												<RandomSequenceContainer Name="pinkEnd" ID="{BBBB6F37-F1E1-4FF3-97F5-23BB7DFB1ED5}" ShortID="132841179">
-													<PropertyList>
-														<Property Name="InitialDelay" Type="Real64">
-															<ValueList>
-																<Value>0.353</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
@@ -158,6 +151,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="PinkpreRoll" ID="{05266046-0D5B-4C94-BD90-1801384C6B74}" ShortID="250244581">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
@@ -239,13 +239,6 @@
 											</ReferenceList>
 											<ChildrenList>
 												<RandomSequenceContainer Name="p1" ID="{794C3946-00C3-4F11-9ACA-8813212581D6}" ShortID="644558280">
-													<PropertyList>
-														<Property Name="InitialDelay" Type="Real64">
-															<ValueList>
-																<Value>0.353</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
@@ -306,6 +299,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Bluepreroll" ID="{6E9DD060-25A8-4DFA-8B3A-A2EA4697A286}" ShortID="500190861">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
@@ -534,6 +534,16 @@
 						</ActorMixer>
 						<RandomSequenceContainer Name="hit ground" ID="{F77126B6-28A6-47F7-8281-CD4013559BAD}" ShortID="477208535">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>14</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>400</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>3</Value>

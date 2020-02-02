@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="94">
-	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1580632054" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1580636296" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Attenuations\Default Work Unit.wwu" DateLow="1580474871" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Audio Devices\Default Work Unit.wwu" DateLow="1580474871" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Control Surface Sessions\Default Work Unit.wwu" DateLow="1580474871" DateHigh="0"/>
@@ -9,19 +9,19 @@
 	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1580474871" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Effects\Default Work Unit.wwu" DateLow="1580474871" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Effects\Factory Effects.wwu" DateLow="1580587833" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Events\Default Work Unit.wwu" DateLow="1580632133" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Events\Default Work Unit.wwu" DateLow="1580636436" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Game Parameters\Default Work Unit.wwu" DateLow="1580631685" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\GlobalGameJam2020.vikto.wsettings" DateLow="1580632250" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\GlobalGameJam2020.vikto.wsettings" DateLow="1580636557" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\GlobalGameJam2020.wproj" DateLow="1580479421" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1580585346" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1580636478" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1580474871" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Mixing Sessions\Default Work Unit.wwu" DateLow="1580474871" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Modulators\Default Work Unit.wwu" DateLow="1580474871" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Presets\Default Work Unit.wwu" DateLow="1580474871" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Queries\Default Work Unit.wwu" DateLow="1580474871" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Queries\Factory Queries.wwu" DateLow="1576575950" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\SoundBanks\Default Work Unit.wwu" DateLow="1580589238" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1580631685" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\SoundBanks\Default Work Unit.wwu" DateLow="1580636554" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1580635944" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\States\Default Work Unit.wwu" DateLow="1580505819" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Switches\Default Work Unit.wwu" DateLow="1580474871" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\Triggers\Default Work Unit.wwu" DateLow="1580474871" DateHigh="0"/>

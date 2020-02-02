@@ -29,16 +29,6 @@
 					<ChildrenList>
 						<Event Name="bgm_start" ID="{CB2C5442-EAC4-4026-A3BA-AEB61CBA6717}">
 							<ChildrenList>
-								<Action Name="" ID="{B1C79500-820C-4C72-824B-73D77EB0F6A5}" ShortID="715199037">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="41"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="bofa_0" ID="{B6CECE9C-B2F4-47D0-98AA-59FA2B5C768F}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{4B4E322F-57CC-45D7-93CC-BE02C49EF97A}" ShortID="127121240">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -50,6 +40,39 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="baseLoop" ID="{27B0A3AE-A905-45E0-B0DB-AA1E756E8C73}" WorkUnitID="{7F9CD1DB-5D4E-4BAB-8065-66B459DD433E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A955B07F-2350-4D9E-9AD9-3B62E6E799F8}" ShortID="900937532">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="BypassGameParameterInternalTransition" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="blue_volume" ID="{078D51EB-CD4A-43CE-A37E-259EB4A57C9C}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E5F110A4-F50E-4259-803C-1E2D56EACD70}" ShortID="843539486">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="BypassGameParameterInternalTransition" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pink_volume" ID="{B4C6B4F6-B16D-402E-B03F-4F29DF8BAE88}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C3E689B4-A595-4DFC-B6B6-93B66BC64B79}" ShortID="971508529">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="BypassGameParameterInternalTransition" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="repair_volume" ID="{C7E1F51B-7B31-449A-AFDA-44E12437D380}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -275,7 +298,7 @@
 								<Action Name="" ID="{9A4ACB0E-07B3-44E8-B363-1700A3AE9C90}" ShortID="606180957">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="38"/>
-										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="1.25"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">

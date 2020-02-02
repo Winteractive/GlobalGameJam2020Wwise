@@ -81,7 +81,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="pink_volume" ID="{B4C6B4F6-B16D-402E-B03F-4F29DF8BAE88}"/>
-							<Value>7.41941444096443E-312</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="pink_charge" ID="{593F8334-0B59-4206-B9BA-6F0910591AC0}"/>
@@ -93,7 +93,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="repair_volume" ID="{C7E1F51B-7B31-449A-AFDA-44E12437D380}"/>
-							<Value>0</Value>
+							<Value>9.01599370151917E-312</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="sleep_filter" ID="{8C06304C-3F9A-476B-8C42-9D2494D5B9C1}"/>

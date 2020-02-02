@@ -15,6 +15,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2305840145	level_transition			\Default Work Unit\sfx\level_transition	
 	2420368622	blue_release_charge			\Default Work Unit\Music\blue_release_charge	
 	2590882482	player_sleep			\Default Work Unit\sfx\player_sleep	
+	2707338441	level_restart			\Default Work Unit\sfx\level_restart	
 	2985635692	bgm_start			\Default Work Unit\Music\bgm_start	
 	3899496084	test_play2			\Default Work Unit\test_play2	
 	4065460003	blue_start_charge			\Default Work Unit\Music\blue_start_charge	
@@ -65,6 +66,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	234487626	loop7	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\loop7_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop7\loop7		40489
 	240932275	c7	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\c7_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\REPAIR\player repair\c7		19851
 	251889063	P4	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\P4_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordLong4\P4		393193
+	264156093	restart2-01	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\restart2-01_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\countin\restart2-01		20717
 	302033951	chordLong4	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\chordLong4_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordLong4\chordLong4		117272
 	303848456	chordShort5	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\chordShort5_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordShort5\chordShort5		67472
 	333563318	chordShort1	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\chordShort1_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordShort1\chordShort1		66085
@@ -104,8 +106,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	898327835	P2	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\P2_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordLong2\P2		391155
 	929132258	tom2	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\tom2_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\hit ground\tom2		20104
 	951483357	11	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\11_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop11\11		41567
+	961153090	restart1a	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\restart1a_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\countin\restart1a		21327
 	969443238	8	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\8_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop8\8		42991
 	972911346	playerCollide1	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\playerCollide1_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\players collide\playerCollide1		9814
+	987745812	restart3-01	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\restart3-01_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\countin\restart3-01		21066
 	991070477	loop6	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\loop6_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\music\baseLoop\loop6\loop6		41647
 	994624300	tom3	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\tom3_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\hit ground\tom3		20101
 	998256436	P1	C:\Users\vikto\Documents\Gitgrejer\GlobalGameJam2020Wwise\GlobalGameJam2020\.cache\Windows\SFX\P1_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\playerMusic\chordLong1\P1		391352

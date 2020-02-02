@@ -26,6 +26,7 @@
 				<Event Id="4065460003" Name="blue_start_charge" ObjectPath="\Events\Default Work Unit\Music\blue_start_charge" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1639892490" Name="bofa_0" ObjectPath="\Events\Default Work Unit\test\bofa_0" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1639892491" Name="bofa_1" ObjectPath="\Events\Default Work Unit\test\bofa_1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2707338441" Name="level_restart" ObjectPath="\Events\Default Work Unit\sfx\level_restart" DurationType="OneShot" DurationMin="1.411746" DurationMax="1.411769"/>
 				<Event Id="2305840145" Name="level_transition" ObjectPath="\Events\Default Work Unit\sfx\level_transition" DurationType="OneShot" DurationMin="2.207104" DurationMax="2.470664"/>
 				<Event Id="1282430586" Name="pink_release_charge" ObjectPath="\Events\Default Work Unit\Music\pink_release_charge" DurationType="OneShot" DurationMin="1.764769" DurationMax="2.028306"/>
 				<Event Id="1084135343" Name="pink_start_charge" ObjectPath="\Events\Default Work Unit\Music\pink_start_charge" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -130,6 +131,10 @@
 				<File Id="251889063" Language="SFX">
 					<ShortName>P4.wav</ShortName>
 					<Path>SFX\P4_9B96ECC7.wem</Path>
+				</File>
+				<File Id="264156093" Language="SFX">
+					<ShortName>restart2-01.wav</ShortName>
+					<Path>SFX\restart2-01_6296B0F9.wem</Path>
 				</File>
 				<File Id="302033951" Language="SFX">
 					<ShortName>chordLong4.wav</ShortName>
@@ -287,6 +292,10 @@
 					<ShortName>11.wav</ShortName>
 					<Path>SFX\11_9B96ECC7.wem</Path>
 				</File>
+				<File Id="961153090" Language="SFX">
+					<ShortName>restart1a.wav</ShortName>
+					<Path>SFX\restart1a_6296B0F9.wem</Path>
+				</File>
 				<File Id="969443238" Language="SFX">
 					<ShortName>8.wav</ShortName>
 					<Path>SFX\8_9B96ECC7.wem</Path>
@@ -294,6 +303,10 @@
 				<File Id="972911346" Language="SFX">
 					<ShortName>playerCollide1.wav</ShortName>
 					<Path>SFX\playerCollide1_6296B0F9.wem</Path>
+				</File>
+				<File Id="987745812" Language="SFX">
+					<ShortName>restart3-01.wav</ShortName>
+					<Path>SFX\restart3-01_6296B0F9.wem</Path>
 				</File>
 				<File Id="991070477" Language="SFX">
 					<ShortName>loop6.wav</ShortName>

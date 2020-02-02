@@ -20,6 +20,7 @@
 						<ObjectRef Name="pink_start_charge" ID="{7F96C3E2-696D-47AE-9192-CE510F0F3425}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="level_transition" ID="{63F2AB0E-2371-47BB-A440-F39F1D307D6F}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="bofa_0" ID="{B6CECE9C-B2F4-47D0-98AA-59FA2B5C768F}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="level_restart" ID="{360FAAB7-F97F-4868-A631-2B6D6D767439}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" WorkUnitID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="test_play2" ID="{3CED5996-0988-48A4-AC77-227089465194}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="blue_release_charge" ID="{D07315F8-7ADB-4923-8165-7DEABA425065}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}" Filter="7" Origin="Manual"/>

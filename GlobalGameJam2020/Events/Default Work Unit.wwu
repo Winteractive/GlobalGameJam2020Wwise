@@ -306,6 +306,84 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="level_restart" ID="{360FAAB7-F97F-4868-A631-2B6D6D767439}">
+							<ChildrenList>
+								<Action Name="" ID="{D2E74446-4510-4B75-9D96-CE564EF1F142}" ShortID="132786520">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="countin" ID="{AAEB2CD8-1DEC-4F24-A74B-2F589273C2C9}" WorkUnitID="{3CE6858D-F3A8-4DEC-972E-D5F72D1F4527}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{21899970-D6B4-4432-A297-283D66727CCE}" ShortID="710472971">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="playerMusic" ID="{3408E111-89D1-46D6-9498-95738C0E4C56}" WorkUnitID="{7F9CD1DB-5D4E-4BAB-8065-66B459DD433E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EAC87F7D-18E8-4D05-8255-54E85DB0B86D}" ShortID="472742502">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="playerMusic" ID="{3408E111-89D1-46D6-9498-95738C0E4C56}" WorkUnitID="{7F9CD1DB-5D4E-4BAB-8065-66B459DD433E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9E8C7DD5-44D1-42FE-A4C1-AA920E97A0CF}" ShortID="111565515">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="baseLoop" ID="{27B0A3AE-A905-45E0-B0DB-AA1E756E8C73}" WorkUnitID="{7F9CD1DB-5D4E-4BAB-8065-66B459DD433E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E9686166-84BE-4AFB-9AC2-638C8826A9B3}" ShortID="620384095">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="baseLoop" ID="{27B0A3AE-A905-45E0-B0DB-AA1E756E8C73}" WorkUnitID="{7F9CD1DB-5D4E-4BAB-8065-66B459DD433E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1B5AA57C-6EB1-48B0-A14C-CE384936F771}" ShortID="76080766">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="bofa_0" ID="{B6CECE9C-B2F4-47D0-98AA-59FA2B5C768F}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FA45C304-E808-4F46-BB0A-7541E5FD612F}" ShortID="482276725">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+										<Property Name="Delay" Type="Real64" Value="1.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="bgm_start" ID="{CB2C5442-EAC4-4026-A3BA-AEB61CBA6717}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="test" ID="{890E7D0A-5B17-46A0-80F7-C1A7958468DE}" ShortID="513944806">

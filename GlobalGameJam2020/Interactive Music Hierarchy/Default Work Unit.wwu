@@ -2259,7 +2259,7 @@
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{E8896151-8E44-445A-8A25-59238F2D04A5}" ShortID="149932918">
 									<PropertyList>
-										<Property Name="PlayMode" Type="int16" Value="1"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
 									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{B49D6146-422E-495C-953A-0E07550C5649}" ShortID="169540367">
@@ -2270,12 +2270,6 @@
 													</PropertyList>
 													<SegmentRef Name="loop1a" ID="{E2E74257-98B4-4D82-802D-FE0EEA107365}"/>
 												</MusicPlaylistItem>
-												<MusicPlaylistItem Name="" ID="{791ADBB0-F886-431A-B6C2-B9B9FB3ECBC2}" ShortID="562538314">
-													<PropertyList>
-														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-													</PropertyList>
-													<SegmentRef Name="loop2" ID="{D4E2E133-5C8E-46D5-98DD-6CFB934455ED}"/>
-												</MusicPlaylistItem>
 												<MusicPlaylistItem Name="" ID="{55AEF41A-6123-4666-A460-F3191566AA52}" ShortID="323321451">
 													<PropertyList>
 														<Property Name="LoopCount" Type="int16" Value="0"/>
@@ -2283,6 +2277,17 @@
 														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 													</PropertyList>
 													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{791ADBB0-F886-431A-B6C2-B9B9FB3ECBC2}" ShortID="562538314">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>20</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<SegmentRef Name="loop2" ID="{D4E2E133-5C8E-46D5-98DD-6CFB934455ED}"/>
+														</MusicPlaylistItem>
 														<MusicPlaylistItem Name="" ID="{2C0EDC66-C022-442F-94D8-39B05D6DCE83}" ShortID="1044943930">
 															<PropertyList>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>

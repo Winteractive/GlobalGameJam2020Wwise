@@ -24,8 +24,8 @@
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="1"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
-						<Property Name="SlewRateDown" Type="Real64" Value="1.3"/>
-						<Property Name="SlewRateUp" Type="Real64" Value="1.3"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="1.5"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="1.5"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="pink_volume" ID="{B4C6B4F6-B16D-402E-B03F-4F29DF8BAE88}">
@@ -33,8 +33,8 @@
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="1"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
-						<Property Name="SlewRateDown" Type="Real64" Value="1.3"/>
-						<Property Name="SlewRateUp" Type="Real64" Value="1.3"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="1.5"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="1.5"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="sleep_filter" ID="{8C06304C-3F9A-476B-8C42-9D2494D5B9C1}">

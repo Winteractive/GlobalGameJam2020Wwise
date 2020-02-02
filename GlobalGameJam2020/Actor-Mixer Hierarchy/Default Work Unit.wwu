@@ -749,7 +749,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="c8" ID="{60324E4F-C051-4F26-AFF4-9001915D03C7}" ShortID="271046689">
+								<Sound Name="playerCollide1" ID="{5235AA9F-9FCD-454F-93C9-48918CE42948}" ShortID="1001323751">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
@@ -759,19 +759,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="c8" ID="{6B7A267A-924F-40B6-8B6C-D889A4166503}" ShortID="101323097">
+										<AudioFileSource Name="playerCollide1" ID="{004B33DB-3D4B-409E-B5A0-1F018152D647}" ShortID="972911346">
 											<Language>SFX</Language>
-											<AudioFile>c8.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="785788819"/>
-											</ConvertedFileIDList>
+											<AudioFile>playerCollide1.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="c8" ID="{6B7A267A-924F-40B6-8B6C-D889A4166503}" Platform="Linked"/>
+										<ActiveSource Name="playerCollide1" ID="{004B33DB-3D4B-409E-B5A0-1F018152D647}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="c7" ID="{45EB9B26-4FD6-436F-9B38-387BD2AAA7FC}" ShortID="394471977">
+								<Sound Name="playerCollide2" ID="{18F9BCA8-D6A7-46DB-91B9-D51F558A6E39}" ShortID="1068026225">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
@@ -781,19 +778,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="c7" ID="{98115EC1-5024-4098-95D9-A52E01EBC4C3}" ShortID="733073734">
+										<AudioFileSource Name="playerCollide2" ID="{16D512FB-ADAD-4BB8-A61E-6A9D4F7226D6}" ShortID="816977855">
 											<Language>SFX</Language>
-											<AudioFile>c7.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="240932275"/>
-											</ConvertedFileIDList>
+											<AudioFile>playerCollide2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="c7" ID="{98115EC1-5024-4098-95D9-A52E01EBC4C3}" Platform="Linked"/>
+										<ActiveSource Name="playerCollide2" ID="{16D512FB-ADAD-4BB8-A61E-6A9D4F7226D6}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="cymbal1" ID="{C7452EBE-506F-4572-B7D5-3EEE9EAB8A0C}" ShortID="697237742">
+								<Sound Name="playerCollide4" ID="{F0E0224D-DAA5-4514-B822-4284018D524F}" ShortID="357937655">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
@@ -803,48 +797,32 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="cymbal1" ID="{78428AF4-B7E6-4456-AFA6-E142D90FB57A}" ShortID="110014940">
+										<AudioFileSource Name="playerCollide4" ID="{EB31FF21-44DA-4D55-B1A8-316D76FFFD3C}" ShortID="37156138">
 											<Language>SFX</Language>
-											<AudioFile>cymbal1.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="730956311"/>
-											</ConvertedFileIDList>
+											<AudioFile>playerCollide4.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="cymbal1" ID="{78428AF4-B7E6-4456-AFA6-E142D90FB57A}" Platform="Linked"/>
+										<ActiveSource Name="playerCollide4" ID="{EB31FF21-44DA-4D55-B1A8-316D76FFFD3C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="c4c" ID="{685FCAFD-9842-4E17-AF58-17683EE82F5B}" ShortID="212540868">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>11</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
+								<Sound Name="playerCollide5" ID="{0F0590B7-0CEF-4D35-AA0A-FC2B6494B3D0}" ShortID="622610065">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FE0A1186-6D2D-4854-9F17-E0EC1199EB26}"/>
-										</Reference>
-										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
-											<ObjectRef Name="Medium" ID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{33EF8610-7196-4EA0-96B1-81EF542103E2}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="c4c" ID="{5BB87C27-6A52-43E1-83D3-D84116BEE0BF}" ShortID="335347842">
+										<AudioFileSource Name="playerCollide5" ID="{3A2EF229-4D0B-4E98-BB92-1B69A70C4047}" ShortID="648257592">
 											<Language>SFX</Language>
-											<AudioFile>c4c.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="85028701"/>
-											</ConvertedFileIDList>
+											<AudioFile>playerCollide5.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="c4c" ID="{5BB87C27-6A52-43E1-83D3-D84116BEE0BF}" Platform="Linked"/>
+										<ActiveSource Name="playerCollide5" ID="{3A2EF229-4D0B-4E98-BB92-1B69A70C4047}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

@@ -33,7 +33,7 @@
 				<Event Id="1751218143" Name="player_mounted" ObjectPath="\Events\Default Work Unit\sfx\player_mounted" DurationType="OneShot" DurationMin="1.411746" DurationMax="1.411769"/>
 				<Event Id="189392646" Name="player_repair" ObjectPath="\Events\Default Work Unit\sfx\player_repair" DurationType="OneShot" DurationMin="4.708685" DurationMax="6.280998"/>
 				<Event Id="2590882482" Name="player_sleep" ObjectPath="\Events\Default Work Unit\sfx\player_sleep" DurationType="OneShot" DurationMin="2.017058" DurationMax="2.820542"/>
-				<Event Id="1321591602" Name="players_collide" ObjectPath="\Events\Default Work Unit\sfx\players_collide" DurationType="OneShot" DurationMin="1.486769" DurationMax="2.192664"/>
+				<Event Id="1321591602" Name="players_collide" ObjectPath="\Events\Default Work Unit\sfx\players_collide" DurationType="OneShot" DurationMin="0.535385" DurationMax="0.750306"/>
 				<Event Id="2093275268" Name="set_blue_volume_to_0" ObjectPath="\Events\Default Work Unit\test\set_blue_volume_to_0" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2093275269" Name="set_blue_volume_to_1" ObjectPath="\Events\Default Work Unit\test\set_blue_volume_to_1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1279113544" Name="set_pink_volume_to_0" ObjectPath="\Events\Default Work Unit\test\set_pink_volume_to_0" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -58,6 +58,10 @@
 				<File Id="34950193" Language="SFX">
 					<ShortName>bluePreroll3.wav</ShortName>
 					<Path>SFX\bluePreroll3_6296B0F9.wem</Path>
+				</File>
+				<File Id="37156138" Language="SFX">
+					<ShortName>playerCollide4.wav</ShortName>
+					<Path>SFX\playerCollide4_6296B0F9.wem</Path>
 				</File>
 				<File Id="41484145" Language="SFX">
 					<ShortName>6.wav</ShortName>
@@ -203,6 +207,10 @@
 					<ShortName>3.wav</ShortName>
 					<Path>SFX\3_9B96ECC7.wem</Path>
 				</File>
+				<File Id="648257592" Language="SFX">
+					<ShortName>playerCollide5.wav</ShortName>
+					<Path>SFX\playerCollide5_6296B0F9.wem</Path>
+				</File>
 				<File Id="663337594" Language="SFX">
 					<ShortName>1b.wav</ShortName>
 					<Path>SFX\1b_9B96ECC7.wem</Path>
@@ -238,6 +246,10 @@
 				<File Id="785788819" Language="SFX">
 					<ShortName>c8.wav</ShortName>
 					<Path>SFX\c8_6296B0F9.wem</Path>
+				</File>
+				<File Id="816977855" Language="SFX">
+					<ShortName>playerCollide2.wav</ShortName>
+					<Path>SFX\playerCollide2_6296B0F9.wem</Path>
 				</File>
 				<File Id="844607025" Language="SFX">
 					<ShortName>chordShort3.wav</ShortName>
@@ -278,6 +290,10 @@
 				<File Id="969443238" Language="SFX">
 					<ShortName>8.wav</ShortName>
 					<Path>SFX\8_9B96ECC7.wem</Path>
+				</File>
+				<File Id="972911346" Language="SFX">
+					<ShortName>playerCollide1.wav</ShortName>
+					<Path>SFX\playerCollide1_6296B0F9.wem</Path>
 				</File>
 				<File Id="991070477" Language="SFX">
 					<ShortName>loop6.wav</ShortName>

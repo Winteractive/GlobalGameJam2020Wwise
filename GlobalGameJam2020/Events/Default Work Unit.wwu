@@ -165,6 +165,7 @@
 								<Action Name="" ID="{BE60A4FD-B8D8-4BAB-8A93-BF56A2F67098}" ShortID="735278396">
 									<PropertyList>
 										<Property Name="Delay" Type="Real64" Value="0.075"/>
+										<Property Name="Probability" Type="Real64" Value="61"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -290,6 +291,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="LEVELEND" ID="{F61E8F84-767A-4AE7-82CB-56B14FAE5F64}" WorkUnitID="{3CE6858D-F3A8-4DEC-972E-D5F72D1F4527}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9C4D51D7-C729-4724-8B8A-5990636B2376}" ShortID="65510617">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="bofa_0" ID="{B6CECE9C-B2F4-47D0-98AA-59FA2B5C768F}" WorkUnitID="{577EBA7E-EB4E-466F-9FFE-AE9A2028E78D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

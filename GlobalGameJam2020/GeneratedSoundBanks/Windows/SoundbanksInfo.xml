@@ -32,7 +32,7 @@
 				<Event Id="1084135343" Name="pink_start_charge" ObjectPath="\Events\Default Work Unit\Music\pink_start_charge" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4236329311" Name="player_grounded" ObjectPath="\Events\Default Work Unit\sfx\player_grounded" DurationType="OneShot" DurationMin="1.120504" DurationMax="1.120522"/>
 				<Event Id="1751218143" Name="player_mounted" ObjectPath="\Events\Default Work Unit\sfx\player_mounted" DurationType="OneShot" DurationMin="1.120504" DurationMax="1.120522"/>
-				<Event Id="189392646" Name="player_repair" ObjectPath="\Events\Default Work Unit\sfx\player_repair" DurationType="OneShot" DurationMin="4.708685" DurationMax="6.280998"/>
+				<Event Id="189392646" Name="player_repair" ObjectPath="\Events\Default Work Unit\sfx\player_repair" DurationType="OneShot" DurationMin="1.088622" DurationMax="1.632942"/>
 				<Event Id="2590882482" Name="player_sleep" ObjectPath="\Events\Default Work Unit\sfx\player_sleep" DurationType="OneShot" DurationMin="2.017058" DurationMax="2.820542"/>
 				<Event Id="1321591602" Name="players_collide" ObjectPath="\Events\Default Work Unit\sfx\players_collide" DurationType="OneShot" DurationMin="0.535385" DurationMax="0.750306"/>
 				<Event Id="2093275268" Name="set_blue_volume_to_0" ObjectPath="\Events\Default Work Unit\test\set_blue_volume_to_0" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -51,6 +51,10 @@
 				<File Id="8140043" Language="SFX">
 					<ShortName>pinkPreroll3.wav</ShortName>
 					<Path>SFX\pinkPreroll3_6296B0F9.wem</Path>
+				</File>
+				<File Id="12217274" Language="SFX">
+					<ShortName>r3.wav</ShortName>
+					<Path>SFX\r3_9B96ECC7.wem</Path>
 				</File>
 				<File Id="27414172" Language="SFX">
 					<ShortName>chordShort2.wav</ShortName>
@@ -80,10 +84,6 @@
 					<ShortName>c5.wav</ShortName>
 					<Path>SFX\c5_6296B0F9.wem</Path>
 				</File>
-				<File Id="81036399" Language="SFX">
-					<ShortName>repair2.wav</ShortName>
-					<Path>SFX\repair2_6296B0F9.wem</Path>
-				</File>
 				<File Id="85028701" Language="SFX">
 					<ShortName>c4c.wav</ShortName>
 					<Path>SFX\c4c_6296B0F9.wem</Path>
@@ -112,9 +112,17 @@
 					<ShortName>1.wav</ShortName>
 					<Path>SFX\1_9B96ECC7.wem</Path>
 				</File>
+				<File Id="192873799" Language="SFX">
+					<ShortName>r1.wav</ShortName>
+					<Path>SFX\r1_9B96ECC7.wem</Path>
+				</File>
 				<File Id="197630391" Language="SFX">
 					<ShortName>chordLong2.wav</ShortName>
 					<Path>SFX\chordLong2_9B96ECC7.wem</Path>
+				</File>
+				<File Id="205887041" Language="SFX">
+					<ShortName>r5.wav</ShortName>
+					<Path>SFX\r5_9B96ECC7.wem</Path>
 				</File>
 				<File Id="212763412" Language="SFX">
 					<ShortName>P3.wav</ShortName>
@@ -256,6 +264,10 @@
 					<ShortName>playerCollide2.wav</ShortName>
 					<Path>SFX\playerCollide2_6296B0F9.wem</Path>
 				</File>
+				<File Id="829592721" Language="SFX">
+					<ShortName>r4.wav</ShortName>
+					<Path>SFX\r4_9B96ECC7.wem</Path>
+				</File>
 				<File Id="844607025" Language="SFX">
 					<ShortName>chordShort3.wav</ShortName>
 					<Path>SFX\chordShort3_9B96ECC7.wem</Path>
@@ -292,6 +304,10 @@
 					<ShortName>11.wav</ShortName>
 					<Path>SFX\11_9B96ECC7.wem</Path>
 				</File>
+				<File Id="955540611" Language="SFX">
+					<ShortName>r2.wav</ShortName>
+					<Path>SFX\r2_9B96ECC7.wem</Path>
+				</File>
 				<File Id="961153090" Language="SFX">
 					<ShortName>restart1a.wav</ShortName>
 					<Path>SFX\restart1a_6296B0F9.wem</Path>
@@ -319,10 +335,6 @@
 				<File Id="998256436" Language="SFX">
 					<ShortName>P1.wav</ShortName>
 					<Path>SFX\P1_9B96ECC7.wem</Path>
-				</File>
-				<File Id="1019612502" Language="SFX">
-					<ShortName>repair1.wav</ShortName>
-					<Path>SFX\repair1_6296B0F9.wem</Path>
 				</File>
 				<File Id="1026497866" Language="SFX">
 					<ShortName>2b.wav</ShortName>

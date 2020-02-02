@@ -261,6 +261,28 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{BE1C922D-EA49-49F8-B6BC-89C177773611}" ShortID="897271123">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="repair_volume" ID="{C7E1F51B-7B31-449A-AFDA-44E12437D380}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9A4ACB0E-07B3-44E8-B363-1700A3AE9C90}" ShortID="606180957">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="repair_volume" ID="{C7E1F51B-7B31-449A-AFDA-44E12437D380}" WorkUnitID="{03D37538-44FB-4768-9077-622945CBB778}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="level_transition" ID="{63F2AB0E-2371-47BB-A440-F39F1D307D6F}">

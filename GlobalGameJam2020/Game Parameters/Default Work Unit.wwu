@@ -50,7 +50,7 @@
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 						<Property Name="SlewRateDown" Type="Real64" Value="38"/>
-						<Property Name="SlewRateUp" Type="Real64" Value="350"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="800"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

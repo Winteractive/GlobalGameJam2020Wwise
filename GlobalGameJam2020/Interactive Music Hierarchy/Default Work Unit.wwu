@@ -2411,7 +2411,7 @@
 						<Property Name="Tempo" Type="Real64" Value="170"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-3</Value>
+								<Value>-6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -2688,6 +2688,9 @@
 								<MusicTrack Name="r1" ID="{D30A53C4-C658-436E-8310-4691BA057B8C}" ShortID="761833333">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{FF49FABD-91E4-4B38-9D72-CF3EEDB109A0}" ShortID="255641361">
 													<ReferenceList>
@@ -3087,6 +3090,9 @@
 								<MusicTrack Name="r2" ID="{0FD742BD-FAE4-4F00-A131-04EA5190AC11}" ShortID="718450228">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{AE134CBB-2B6C-42EF-9A91-78F45F078A57}" ShortID="69062128">
 													<ReferenceList>
@@ -3489,6 +3495,9 @@
 								<MusicTrack Name="r3" ID="{73222F28-F061-4CAC-99EC-3415BFB15FF9}" ShortID="333383610">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{B0FB3FDD-03E1-42A1-8DF6-EC00EC4B8498}" ShortID="325828250">
 													<ReferenceList>
@@ -3891,6 +3900,9 @@
 								<MusicTrack Name="r4" ID="{C2EECBEB-857A-4B1D-8559-893682021F2C}" ShortID="893178034">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{290624F7-2EC8-44EC-BEE3-A08597F5DE5E}" ShortID="374405401">
 													<ReferenceList>
@@ -4293,6 +4305,9 @@
 								<MusicTrack Name="r5" ID="{8FD2E11B-5EFE-4E4C-8C08-FA341D371B24}" ShortID="201826125">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{CC4FEEE4-C5F5-4727-B013-DAD222C0B052}" ShortID="610057575">
 													<ReferenceList>
@@ -4698,6 +4713,9 @@
 								<MusicTrack Name="r1" ID="{F9101F05-0442-4FDC-96B2-D70682347767}" ShortID="704122742">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{96065585-38A8-49FF-9624-7D39573BCE59}" ShortID="1056745572">
 													<ReferenceList>
@@ -5106,6 +5124,9 @@
 								<MusicTrack Name="r2" ID="{E8EF825C-C4F2-4FA7-8BA2-57E84CA72823}" ShortID="574667185">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{D74AC2E4-F3C3-4144-B7E0-55800618EBE1}" ShortID="94725786">
 													<ReferenceList>
@@ -5514,6 +5535,9 @@
 								<MusicTrack Name="r3" ID="{A28716CB-8E39-476E-BB99-8E1C0CFC07FC}" ShortID="787430049">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{A7C01FBE-A414-4BD7-80CD-AD391F353816}" ShortID="671381410">
 													<ReferenceList>
@@ -5922,6 +5946,9 @@
 								<MusicTrack Name="r4" ID="{60349DE2-511D-4565-9DD4-8E801D20AAD0}" ShortID="758424165">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{5F09282A-3B2B-4FBB-8A76-D9670CD28D99}" ShortID="676088495">
 													<ReferenceList>
@@ -6329,6 +6356,9 @@
 								<MusicTrack Name="r5" ID="{B8692840-5C2B-4E27-ABA1-2E5C954AA67B}" ShortID="638326685">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{FBD3F576-BDDF-49A4-B2B2-A9546E85D00A}" ShortID="203900561">
 													<ReferenceList>
